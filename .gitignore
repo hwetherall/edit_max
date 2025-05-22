@@ -21,7 +21,9 @@ var/
 *.egg
 
 # Environment variables
+.env.example
 .env
+.env.local
 
 # Results directory
 results/
