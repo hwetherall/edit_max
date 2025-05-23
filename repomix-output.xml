@@ -1,0 +1,2059 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+.env.example
+.gitignore
+app.py
+cli.py
+converted_data/base_template_Sheet1.csv
+converted_data/base_template_Sheet1.json
+database_query_examples.py
+edited_memo_20250522_084647.md
+edited_memo_20250522_085722.md
+edited_memo_20250522_090058.md
+edited_memo_20250522_090403.md
+example_memo.md
+excel_converter.py
+main.py
+openrouter_client.py
+processors.py
+README.md
+requirements.txt
+storage.py
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="converted_data/base_template_Sheet1.csv">
+Chapter Name,Customer Discovery,Product and Technology,Market Research,Competitor Analysis,Revenue Model,Operating Metrics,Financial Modelling,Team and Talents,Legal and IP
+Chapter General Instructions,"A chapter of an investment memo focused on demonstrating validated customer demand and early traction for the company's proposed solution. It should be a concise, evidence-backed narrative that answers the critical questions: ""Is there a real, significant customer problem?"", ""Do customers want this specific solution?"", and ""Why is now the right time for this venture from a customer demand perspective?"". The objective is to de-risk the investment by showcasing that a specific, significant customer problem exists, that the company's solution resonates with the target audience, and that initial positive signals (traction) have been observed. Emphasis should be on qualitative and quantitative data gathered through robust customer discovery and validation methods.","A chapter of an investment memo detailing the company's core product(s) and/or services, the underlying technology, and its current and future development. It should clearly explain what the company is building/has built, how it works, why it's innovative or superior, and how it will evolve. The language should be accessible to a technically literate investor, avoiding excessive jargon while still providing sufficient depth to demonstrate technical competence and vision. The objective is to convince investors of the product's value, the technology's viability and defensibility, and the team's ability to execute on the technical roadmap. Relevant, well-explained diagrams, schematics, or visuals should be used where they aid understanding.","A chapter of an investment memo that is Concise, data‑driven analysis of the total addressable market for the company, covering definition, size, segmentation, growth drivers, key use‑cases and unanswered market‑intelligence questions. The objective is to equip investors with a clear, sourced view of how big the opportunity is and why it exists.","A chapter of an investment memo that is concise, data‑driven analysis of the competitive landscape. 
+It should give investors a clear, sourced view of who the company is up against, how it differentiates, 
+and what threats or opportunities emerge from the current and projected competitive dynamics.","A chapter of an investment memo that clearly defines and explains the company's strategy for generating revenue. It should detail primary and secondary revenue streams, pricing strategy and rationale, key drivers of revenue growth, and how the model is designed for scalability and long-term economic viability. The objective is to provide investors with a clear understanding of how the company creates, delivers, and captures value, and the inherent strengths and risks of its monetization approach.","A chapter of an investment memo that provides a clear view of the company's current operational performance, key metrics tracked, and its execution roadmap for the near future (typically 12-18 months). It should demonstrate momentum through current traction, detail the key performance indicators (KPIs) used to manage the business, outline a credible growth plan with specific milestones, and address potential execution risks. The objective is to show investors that the company is data-driven, has a realistic plan to achieve its goals, and is aware of the challenges ahead. This section should focus on operational execution, minimizing deep financial modeling details which belong in the Financials chapter.","A chapter of an investment memo that provides a comprehensive analysis of the company's historical financial performance, current financial health, and future financial projections. It should scrutinize the underlying financial model, key assumptions, unit economics, and capital requirements. The objective is to assess the company's financial viability, growth potential, path to profitability, and the reasonableness of its financial plan and funding ask, ultimately informing the potential for a venture-scale return. This section should summarize findings from a detailed review of the company's financial statements and forecast model.","A chapter of an investment memo that provides a thorough assessment of the founding team, key personnel, overall team composition, and talent strategy. It should go beyond biographical information to analyze relevant experience, track record, leadership qualities, team dynamics, and alignment with the venture's goals and investor expectations. The objective is to convince investors that the company is led by a capable, cohesive, and motivated team with the right experience and vision to execute the business plan and overcome challenges, and that there's a sound approach to attracting and retaining future talent.","A chapter of an investment memo that provides a summary of key legal due diligence findings. It should cover the company's corporate structure, capitalization, intellectual property ownership, material contracts, regulatory compliance, and any significant legal risks or disputes. The objective is to confirm the company's proper legal standing, identify any material legal or compliance issues that could impact the investment or future operations, and ensure key assets like IP are securely owned by the company. The language should be concise, focusing on material findings and their implications rather than excessive legal jargon."
+Chapter Sections List Instructions,"1. Customer Problem & Unmet Need: Clearly define the specific, significant pain point, frustration, inefficiency, or unmet aspiration the venture addresses for a defined group of customers. Articulate why current solutions are inadequate. Provide qualitative or quantitative evidence.
+2. Problem Significance & Willingness to Pay: Provide evidence that the identified problem is a high-priority for target customers, causing considerable pain, cost, or missed opportunity. Demonstrate that customers are actively seeking solutions or express a strong desire and/or budget for a better one (e.g., customer quotes, survey data on dissatisfaction, analysis of spending on current workarounds).
+3. Initial Target Customer Segment(s): Clearly identify and describe the primary, specific group(s) of customers the company will focus on acquiring first. Detail their shared characteristics and explain why these specific customers most acutely experience the problem and need the proposed product/service, making them ideal early adopters.
+4. Customer Discovery & Validation Methods: Describe the specific processes, experiments, and methodologies used to gather customer insights and validate hypotheses (e.g., number and type of customer interviews, surveys conducted, MVP/prototype testing, A/B tests, concierge MVP, landing page tests, lean startup methodologies). Detail the rigor and approach.
+5. Solution Demand Validation (Evidence of Traction): Present specific, tangible evidence of positive customer reaction to the venture's proposed solution. This includes early signs that target customers are interested (e.g., positive feedback on MVP/prototype, user engagement metrics, sign-ups for a beta/waitlist, Letters of Intent (LOIs), pre-orders, early sales, pilot program results). Quantify traction where possible.
+6. Market Context & Opportunity Catalysts: Discuss relevant industry trends, market dynamics, or technological shifts (e.g., growing market segments, new technologies enabling solutions, changing regulations, evolving customer behaviors) that create or enhance the opportunity for this specific venture by amplifying the customer need or enabling the proposed solution.
+7. Favorable Timing (""Why Now?""): Articulate compelling reasons why the present moment is ideal to launch and scale this venture, focusing on factors that make the customer base receptive now. This could include technological breakthroughs making the solution feasible/affordable, regulatory changes opening markets, competitive gaps, or emerging customer behaviors that the venture can capitalize on.","1. Product/Service Overview: Clearly describe the core product(s) and/or service(s) offered. Explain their primary function, target users, and how users interact with them.
+2. Problem Solved & User Value Proposition: Articulate the specific customer problem or unmet need the product/service directly addresses. Clearly state the primary, quantifiable benefits (e.g., cost savings, speed, efficiency, new capability) the product/technology offers to its users, highlighting its unique value.
+3. Core Technology & Innovation: Detail the underlying technology (e.g., specific algorithms, scientific principles, engineering architecture, proprietary processes) that powers the product/service. Explain its mechanism of action – how it fundamentally works. Clearly identify what is novel or innovative about this technology compared to existing approaches.
+4. Development Status, Validation & Feasibility: Specify the current stage of product/technology development (e.g., concept, R&D, prototype, Alpha/Beta, MVP, commercially available, specific version). Provide evidence of technical feasibility and validation for novel or critical aspects (e.g., test results, pilot studies, prototype performance, simulations, third-party assessments).
+5. Technical Roadmap & Future Milestones: Present a clear, time-bound (even if approximate) technical roadmap outlining key future development milestones. This should include planned major features, version releases, performance improvements, R&D goals, and expected timelines (e.g., next 6, 12, 18 months).
+6. Competitive Differentiation & Technical Advantages: Compare the product/technology to key existing alternatives, incumbent solutions, or competing technologies. Detail specific, quantifiable technical competitive advantages (e.g., superior performance metrics, unique features, architectural superiority, efficiency gains) that provide an edge.
+7. System Architecture, Scalability & Deployment/Manufacturability: Describe the key architectural choices of the product/technology and explain how these support scalability to handle growth in users, data, or transaction volume. Address the manufacturability (for hardware) or deployment process (for software/services), highlighting efficiency or unique aspects.
+8. Key Technical Risks & Mitigation Strategies: Candidly identify the most significant technical risks or challenges the company faces (e.g., development hurdles, scaling limitations, performance bottlenecks, integration complexities, manufacturing challenges). Outline credible plans or strategies in place to mitigate these risks.
+9. Technical Defensibility & Intellectual Property (IP) Context: Explain the technical defensibility of the product/technology beyond (or in conjunction with) formal IP. This includes aspects like proprietary algorithms, trade secrets, deeply embedded know-how, unique datasets, complex engineering, or high barriers to replication. Briefly mention how any formal IP (patents, etc.) protects these core technical assets and contributes to a sustainable advantage.","1. Market Definition & Taxonomy
+2. Market Size & Growth (US and Worldwide TAM, historical and forecasts)
+3. Market Segmentation
+4. Growth Drivers & Trends
+5. Use Cases & Applications
+6. Market Intelligence Questions (3-5 critical questions focused exclusively on market dynamics, not company operations)
+","1. Competitive Landscape Overview
+2. Key Competitor Profiles
+3. Competitive Positioning & Differentiation
+4. Market Share & Traction
+5. Barriers to Entry & Switching Costs
+6. SWOT Comparison
+7. Competitive Outlook & Risks","1. Primary Revenue Stream(s) & Model Overview: Clearly define and describe the main method(s) by which the company generates income (e.g., SaaS subscriptions, product sales, transaction fees, licensing). Provide an overview of the core business model.
+2. Pricing Strategy & Rationale: Detail the pricing structure for key products/services (e.g., specific tiers and their prices, how usage fees are calculated, per-unit costs). Explain the rationale behind this pricing strategy (e.g., value-based, cost-plus, competitive, tiered) and how it aligns with customer value and market expectations.
+3. Key Revenue & Growth Drivers: Identify the 2-3 primary levers the business model relies on for revenue growth (e.g., new customer acquisition, increased usage/consumption, upsell/cross-sell, price adjustments, market expansion).
+4. Unit Economics & Scalability: Describe the core unit economics from the perspective of the revenue model's design (e.g., target ARPU/ARPA, Gross Margin % per unit/customer). Explain how the revenue model (including pricing and delivery) is designed to scale efficiently as the business grows, highlighting features that support profitability at scale (e.g., low marginal costs, automation).
+5. Sales Cycle & Revenue Recognition Insights: Discuss the typical sales cycle length for key customer segments. Briefly explain its impact on revenue recognition timing and cash flow dynamics (e.g., how contract terms or payment schedules affect financial reporting and working capital).
+6. Secondary/Ancillary Revenue Streams (Existing & Potential): Identify any secondary or ancillary revenue streams currently in place or planned for the future (e.g., add-on modules, professional services, data monetization). Discuss their current or realistically projected contribution to overall revenue.
+7. Business Model Dependencies & Risks: Identify key dependencies (e.g., reliance on specific platforms, partners, a small number of large customers) or inherent risks within the business model that could significantly impact its viability or revenue generation.
+8. Competitive Advantage & Defensibility of the Model: Explain how the revenue model itself (including revenue streams, pricing, or value capture mechanisms) provides a competitive advantage, differentiation, or defensibility against competitors (e.g., network effects, high switching costs embedded in the model).
+9. Future Evolution of the Revenue Model: Discuss any concrete plans to evolve or expand the revenue model in the future (e.g., introducing new product lines with different monetization, significant pricing strategy shifts, targeting new markets with tailored offerings).
+10. Long-Term Economic Viability Assessment: Provide a qualitative assessment of the long-term economic viability and attractiveness of the business model, considering factors like recurring revenue potential, operating leverage, customer lifetime value, and overall profitability at scale","1. Current Traction & Key Performance Metrics: Present clear, quantifiable evidence of current market validation and operational momentum relevant to the company's stage (e.g., revenue figures like ARR/MRR, customer counts, user growth rates, engagement metrics, pilot project successes). Define all key metrics clearly.
+2. Core KPIs Monitored by Management: Identify the primary Key Performance Indicators (KPIs) that the management team actively monitors (e.g., daily, weekly, monthly) to gauge success, manage the business, and make data-driven decisions (e.g., CAC, LTV, churn, conversion rates, gross margin, specific operational metrics). Explain why these KPIs are critical.
+3. Growth & Operating Plan (Next 12-18 Months): Outline a clear, time-bound execution roadmap with specific, measurable, achievable, relevant, and time-bound (SMART) milestones for key operational areas. This should cover:
+* Product Development: Key features, releases, or R&D goals.
+* Sales & Customer Acquisition: Targets for new customers, revenue, or market penetration.
+* Marketing Initiatives: Key campaigns or lead generation goals.
+* Team & Hiring: Critical hires or team expansion plans.
+* (If applicable) Other Operational Goals: e.g., manufacturing targets, supply chain improvements, new office openings.
+4. Alignment with Funding & Use of Funds (If Applicable): Briefly explain how the outlined operating plan and its milestones align with the current funding ask (if fundraising). Indicate how the planned use of funds will directly support the achievement of these operational goals.
+5. Key Execution Risks & Mitigation Strategies: Identify 2-3 of the most significant potential execution risks or challenges that could prevent the company from achieving its planned milestones (e.g., hiring delays, product development setbacks, slower market adoption, competitive responses). For each key risk, outline plausible mitigation strategies or contingency plans.
+6. Overall Plan Credibility & Achievability Assessment: Provide a brief, balanced assessment of the overall credibility and achievability of the operating plan, considering current traction, the ambition of the goals, resource availability (including funding), and the identified risks and mitigations.","1. Historical Financial Performance & Key Metrics: Present a summary of available historical financial data (e.g., last 1-3 years or relevant period, including revenue, COGS, gross profit, key operating expenses, net income/loss). Confirm the current average monthly burn rate and estimated runway with existing capital.
+2. Financial Projection Model Overview: Describe the company's financial forecast model (typically 3-5 years), noting its structure (P&L, Balance Sheet, Cash Flow) and the period it covers. Confirm that a detailed model was reviewed.
+3. Key Assumptions & Drivers in Projections: Identify and scrutinize the critical assumptions underpinning the financial projections (e.g., revenue growth rates, customer acquisition targets and costs, pricing evolution, hiring pace, COGS, OpEx scaling). Comment on their reasonableness based on historicals, market conditions, and operational plans.
+4. Projected Financial Statements Summary: Provide a high-level summary of the projected Income Statement, Cash Flow Statement, and key Balance Sheet items for the forecast period, highlighting key trends (e.g., revenue growth, path to profitability, cash balance).
+5. Unit Economics & Profitability Analysis: Analyze key unit economics (e.g., Gross Margin per unit/customer, LTV, CAC, LTV/CAC ratio, payback period), discussing the methodology and assumptions. Assess the model's path to attractive gross and net margins at scale and when profitability (e.g., EBITDA breakeven, net income positive) is projected.
+6. Scenario & Sensitivity Analysis: Discuss the results of any scenario analysis (e.g., base, upside, downside cases) or sensitivity analysis performed on the financial model. Identify key variables that have the most significant impact on financial outcomes and runway.
+7. Capital Requirements & Use of Funds: Clearly state the current funding ask (if applicable) and provide a detailed breakdown of the planned use of these funds over a defined period (e.g., 12-18 months), linking it to key operational and financial milestones.
+8. Efficiency Metrics & Industry Benchmarks: Present relevant financial and operational efficiency metrics (e.g., Burn Multiple, Rule of 40, industry-specific KPIs like ARPU, GMV growth) and compare them to industry benchmarks where appropriate, discussing their implications.
+9. Long-Term Economic Viability & Venture-Scale Exit Potential: Based on the projections and unit economics, assess the long-term economic viability of the business. Discuss whether the projected scale of revenue and market position could plausibly lead to a venture-scale exit (e.g., >$100M revenue, potential for >10x return for investors).
+10. Financial Tracking & Reporting Systems: Briefly describe the tools, systems (e.g., accounting software, CRM, BI tools), and processes the company uses to track, manage, and report its financial and key operational metrics.","1. Founders' Profile: Experience, Expertise & Track Record:
+* Detail each founder's relevant industry experience and deep domain expertise that aligns with the venture (Founder-Market Fit).
+* Discuss their entrepreneurial and leadership track record, including any previous startup successes, significant achievements, or key learnings from past ventures.
+2. Current Team Structure & Key Functional Leadership:
+* Outline the current core team structure beyond the founders, identifying who leads key functional areas (e.g., technology, product, sales, marketing, operations).
+* Briefly assess the strengths and suitability of individuals in these key roles.
+3. Talent Gaps & Hiring Plan:
+* Candidly identify any critical talent gaps in the current team (e.g., missing C-level expertise, key functional leads).
+* Outline the company's plan and timeline to fill these roles, particularly post-funding.
+4. Leadership Qualities, Cohesion & Motivation:
+* Assess the key leadership qualities of the founder(s) (e.g., vision, resilience, communication, ability to inspire).
+* Comment on the perceived cohesion, working relationship, and complementary skills among co-founders (if applicable).
+* Discuss the founders' core motivations and their long-term ambition for the company.
+5. Alignment with Investor Goals:
+* Assess the alignment of the founders' goals (regarding growth, funding, exit expectations, openness to guidance) with typical venture investor expectations.
+6. Talent Attraction, Retention & Company Culture:
+* Discuss the company's strategy and ability to attract and retain top talent (e.g., mission, culture, compensation, equity).
+* Provide any insights into the company culture being built or envisioned, and its potential impact.
+7. Advisory Board & Key Influencers (If Applicable):
+* List any key advisors, board members (other than founders), or significant external influencers/mentors actively contributing to the company, and describe their value.","1. Corporate Structure & Good Standing:
+* Confirm the company's legal form (e.g., C-Corp, LLC), jurisdiction of incorporation, and date.
+* Verify its good standing with relevant state authorities.
+2. Capitalization Table & Ownership:
+* Summarize the current capitalization table, highlighting founder ownership (including vesting status), major investor stakes, and the size/status of the Employee Stock Option Pool (ESOP).
+* Note any complex share structures or unusual terms.
+3. Key Governance Documents & Past Financings:
+* Confirm review of key governance documents (e.g., articles of incorporation, bylaws, shareholder agreements, recent board minutes).
+* Review documents from prior financing rounds (e.g., SAFE/Note agreements, preferred share terms), highlighting any material or non-standard terms.
+4. Intellectual Property (IP) Ownership & Protection:
+* Confirm legal ownership of key IP assets (patents, trademarks, copyrights, critical domain names) by the company, including proper registration or assignment from founders/employees.
+* Note the status of key IP filings (e.g., patent pending, trademark registered).
+* Identify any known IP disputes, significant infringement risks, or material freedom-to-operate concerns.
+5. Material Contracts & Obligations:
+* Summarize findings from the review of material contracts (e.g., key customer, supplier, partnership agreements; significant leases).
+* Highlight any adverse, unusual, or restrictive terms (e.g., change-of-control clauses, exclusivity, significant liabilities, non-standard termination rights).
+* Discuss compliance with any significant debt covenants or other major outstanding financial obligations.
+6. Regulatory Compliance & Licensing:
+* Identify key industry-specific regulations applicable to the company (e.g., HIPAA, GDPR/CCPA, financial regulations).
+* Assess the company's current compliance status and possession of necessary licenses or permits to operate.
+7. Litigation & Legal Disputes:
+* Disclose any ongoing or pending material litigation, significant regulatory inquiries, or other substantial legal threats.
+* Provide a brief evaluation of the potential impact and current status.
+8. Employment & HR Legal Considerations:
+* Confirm key employment practices are in place, such as the use of employment agreements with confidentiality and IP assignment clauses.
+* Verify proper classification of employees versus contractors.
+* Note the status of employee stock option grants and ESOP compliance."
+</file>
+
+<file path="converted_data/base_template_Sheet1.json">
+[
+  {
+    "Chapter Name": "Chapter General Instructions",
+    "Customer Discovery": "A chapter of an investment memo focused on demonstrating validated customer demand and early traction for the company's proposed solution. It should be a concise, evidence-backed narrative that answers the critical questions: \"Is there a real, significant customer problem?\", \"Do customers want this specific solution?\", and \"Why is now the right time for this venture from a customer demand perspective?\". The objective is to de-risk the investment by showcasing that a specific, significant customer problem exists, that the company's solution resonates with the target audience, and that initial positive signals (traction) have been observed. Emphasis should be on qualitative and quantitative data gathered through robust customer discovery and validation methods.",
+    "Product and Technology": "A chapter of an investment memo detailing the company's core product(s) and/or services, the underlying technology, and its current and future development. It should clearly explain what the company is building/has built, how it works, why it's innovative or superior, and how it will evolve. The language should be accessible to a technically literate investor, avoiding excessive jargon while still providing sufficient depth to demonstrate technical competence and vision. The objective is to convince investors of the product's value, the technology's viability and defensibility, and the team's ability to execute on the technical roadmap. Relevant, well-explained diagrams, schematics, or visuals should be used where they aid understanding.",
+    "Market Research": "A chapter of an investment memo that is Concise, data‑driven analysis of the total addressable market for the company, covering definition, size, segmentation, growth drivers, key use‑cases and unanswered market‑intelligence questions. The objective is to equip investors with a clear, sourced view of how big the opportunity is and why it exists.",
+    "Competitor Analysis": "A chapter of an investment memo that is concise, data‑driven analysis of the competitive landscape. \nIt should give investors a clear, sourced view of who the company is up against, how it differentiates, \nand what threats or opportunities emerge from the current and projected competitive dynamics.",
+    "Revenue Model": "A chapter of an investment memo that clearly defines and explains the company's strategy for generating revenue. It should detail primary and secondary revenue streams, pricing strategy and rationale, key drivers of revenue growth, and how the model is designed for scalability and long-term economic viability. The objective is to provide investors with a clear understanding of how the company creates, delivers, and captures value, and the inherent strengths and risks of its monetization approach.",
+    "Operating Metrics": "A chapter of an investment memo that provides a clear view of the company's current operational performance, key metrics tracked, and its execution roadmap for the near future (typically 12-18 months). It should demonstrate momentum through current traction, detail the key performance indicators (KPIs) used to manage the business, outline a credible growth plan with specific milestones, and address potential execution risks. The objective is to show investors that the company is data-driven, has a realistic plan to achieve its goals, and is aware of the challenges ahead. This section should focus on operational execution, minimizing deep financial modeling details which belong in the Financials chapter.",
+    "Financial Modelling": "A chapter of an investment memo that provides a comprehensive analysis of the company's historical financial performance, current financial health, and future financial projections. It should scrutinize the underlying financial model, key assumptions, unit economics, and capital requirements. The objective is to assess the company's financial viability, growth potential, path to profitability, and the reasonableness of its financial plan and funding ask, ultimately informing the potential for a venture-scale return. This section should summarize findings from a detailed review of the company's financial statements and forecast model.",
+    "Team and Talents": "A chapter of an investment memo that provides a thorough assessment of the founding team, key personnel, overall team composition, and talent strategy. It should go beyond biographical information to analyze relevant experience, track record, leadership qualities, team dynamics, and alignment with the venture's goals and investor expectations. The objective is to convince investors that the company is led by a capable, cohesive, and motivated team with the right experience and vision to execute the business plan and overcome challenges, and that there's a sound approach to attracting and retaining future talent.",
+    "Legal and IP": "A chapter of an investment memo that provides a summary of key legal due diligence findings. It should cover the company's corporate structure, capitalization, intellectual property ownership, material contracts, regulatory compliance, and any significant legal risks or disputes. The objective is to confirm the company's proper legal standing, identify any material legal or compliance issues that could impact the investment or future operations, and ensure key assets like IP are securely owned by the company. The language should be concise, focusing on material findings and their implications rather than excessive legal jargon."
+  },
+  {
+    "Chapter Name": "Chapter Sections List Instructions",
+    "Customer Discovery": "1. Customer Problem & Unmet Need: Clearly define the specific, significant pain point, frustration, inefficiency, or unmet aspiration the venture addresses for a defined group of customers. Articulate why current solutions are inadequate. Provide qualitative or quantitative evidence.\n2. Problem Significance & Willingness to Pay: Provide evidence that the identified problem is a high-priority for target customers, causing considerable pain, cost, or missed opportunity. Demonstrate that customers are actively seeking solutions or express a strong desire and/or budget for a better one (e.g., customer quotes, survey data on dissatisfaction, analysis of spending on current workarounds).\n3. Initial Target Customer Segment(s): Clearly identify and describe the primary, specific group(s) of customers the company will focus on acquiring first. Detail their shared characteristics and explain why these specific customers most acutely experience the problem and need the proposed product/service, making them ideal early adopters.\n4. Customer Discovery & Validation Methods: Describe the specific processes, experiments, and methodologies used to gather customer insights and validate hypotheses (e.g., number and type of customer interviews, surveys conducted, MVP/prototype testing, A/B tests, concierge MVP, landing page tests, lean startup methodologies). Detail the rigor and approach.\n5. Solution Demand Validation (Evidence of Traction): Present specific, tangible evidence of positive customer reaction to the venture's proposed solution. This includes early signs that target customers are interested (e.g., positive feedback on MVP/prototype, user engagement metrics, sign-ups for a beta/waitlist, Letters of Intent (LOIs), pre-orders, early sales, pilot program results). Quantify traction where possible.\n6. Market Context & Opportunity Catalysts: Discuss relevant industry trends, market dynamics, or technological shifts (e.g., growing market segments, new technologies enabling solutions, changing regulations, evolving customer behaviors) that create or enhance the opportunity for this specific venture by amplifying the customer need or enabling the proposed solution.\n7. Favorable Timing (\"Why Now?\"): Articulate compelling reasons why the present moment is ideal to launch and scale this venture, focusing on factors that make the customer base receptive now. This could include technological breakthroughs making the solution feasible/affordable, regulatory changes opening markets, competitive gaps, or emerging customer behaviors that the venture can capitalize on.",
+    "Product and Technology": "1. Product/Service Overview: Clearly describe the core product(s) and/or service(s) offered. Explain their primary function, target users, and how users interact with them.\n2. Problem Solved & User Value Proposition: Articulate the specific customer problem or unmet need the product/service directly addresses. Clearly state the primary, quantifiable benefits (e.g., cost savings, speed, efficiency, new capability) the product/technology offers to its users, highlighting its unique value.\n3. Core Technology & Innovation: Detail the underlying technology (e.g., specific algorithms, scientific principles, engineering architecture, proprietary processes) that powers the product/service. Explain its mechanism of action – how it fundamentally works. Clearly identify what is novel or innovative about this technology compared to existing approaches.\n4. Development Status, Validation & Feasibility: Specify the current stage of product/technology development (e.g., concept, R&D, prototype, Alpha/Beta, MVP, commercially available, specific version). Provide evidence of technical feasibility and validation for novel or critical aspects (e.g., test results, pilot studies, prototype performance, simulations, third-party assessments).\n5. Technical Roadmap & Future Milestones: Present a clear, time-bound (even if approximate) technical roadmap outlining key future development milestones. This should include planned major features, version releases, performance improvements, R&D goals, and expected timelines (e.g., next 6, 12, 18 months).\n6. Competitive Differentiation & Technical Advantages: Compare the product/technology to key existing alternatives, incumbent solutions, or competing technologies. Detail specific, quantifiable technical competitive advantages (e.g., superior performance metrics, unique features, architectural superiority, efficiency gains) that provide an edge.\n7. System Architecture, Scalability & Deployment/Manufacturability: Describe the key architectural choices of the product/technology and explain how these support scalability to handle growth in users, data, or transaction volume. Address the manufacturability (for hardware) or deployment process (for software/services), highlighting efficiency or unique aspects.\n8. Key Technical Risks & Mitigation Strategies: Candidly identify the most significant technical risks or challenges the company faces (e.g., development hurdles, scaling limitations, performance bottlenecks, integration complexities, manufacturing challenges). Outline credible plans or strategies in place to mitigate these risks.\n9. Technical Defensibility & Intellectual Property (IP) Context: Explain the technical defensibility of the product/technology beyond (or in conjunction with) formal IP. This includes aspects like proprietary algorithms, trade secrets, deeply embedded know-how, unique datasets, complex engineering, or high barriers to replication. Briefly mention how any formal IP (patents, etc.) protects these core technical assets and contributes to a sustainable advantage.",
+    "Market Research": "1. Market Definition & Taxonomy\n2. Market Size & Growth (US and Worldwide TAM, historical and forecasts)\n3. Market Segmentation\n4. Growth Drivers & Trends\n5. Use Cases & Applications\n6. Market Intelligence Questions (3-5 critical questions focused exclusively on market dynamics, not company operations)\n",
+    "Competitor Analysis": "1. Competitive Landscape Overview\n2. Key Competitor Profiles\n3. Competitive Positioning & Differentiation\n4. Market Share & Traction\n5. Barriers to Entry & Switching Costs\n6. SWOT Comparison\n7. Competitive Outlook & Risks",
+    "Revenue Model": "1. Primary Revenue Stream(s) & Model Overview: Clearly define and describe the main method(s) by which the company generates income (e.g., SaaS subscriptions, product sales, transaction fees, licensing). Provide an overview of the core business model.\n2. Pricing Strategy & Rationale: Detail the pricing structure for key products/services (e.g., specific tiers and their prices, how usage fees are calculated, per-unit costs). Explain the rationale behind this pricing strategy (e.g., value-based, cost-plus, competitive, tiered) and how it aligns with customer value and market expectations.\n3. Key Revenue & Growth Drivers: Identify the 2-3 primary levers the business model relies on for revenue growth (e.g., new customer acquisition, increased usage/consumption, upsell/cross-sell, price adjustments, market expansion).\n4. Unit Economics & Scalability: Describe the core unit economics from the perspective of the revenue model's design (e.g., target ARPU/ARPA, Gross Margin % per unit/customer). Explain how the revenue model (including pricing and delivery) is designed to scale efficiently as the business grows, highlighting features that support profitability at scale (e.g., low marginal costs, automation).\n5. Sales Cycle & Revenue Recognition Insights: Discuss the typical sales cycle length for key customer segments. Briefly explain its impact on revenue recognition timing and cash flow dynamics (e.g., how contract terms or payment schedules affect financial reporting and working capital).\n6. Secondary/Ancillary Revenue Streams (Existing & Potential): Identify any secondary or ancillary revenue streams currently in place or planned for the future (e.g., add-on modules, professional services, data monetization). Discuss their current or realistically projected contribution to overall revenue.\n7. Business Model Dependencies & Risks: Identify key dependencies (e.g., reliance on specific platforms, partners, a small number of large customers) or inherent risks within the business model that could significantly impact its viability or revenue generation.\n8. Competitive Advantage & Defensibility of the Model: Explain how the revenue model itself (including revenue streams, pricing, or value capture mechanisms) provides a competitive advantage, differentiation, or defensibility against competitors (e.g., network effects, high switching costs embedded in the model).\n9. Future Evolution of the Revenue Model: Discuss any concrete plans to evolve or expand the revenue model in the future (e.g., introducing new product lines with different monetization, significant pricing strategy shifts, targeting new markets with tailored offerings).\n10. Long-Term Economic Viability Assessment: Provide a qualitative assessment of the long-term economic viability and attractiveness of the business model, considering factors like recurring revenue potential, operating leverage, customer lifetime value, and overall profitability at scale",
+    "Operating Metrics": "1. Current Traction & Key Performance Metrics: Present clear, quantifiable evidence of current market validation and operational momentum relevant to the company's stage (e.g., revenue figures like ARR/MRR, customer counts, user growth rates, engagement metrics, pilot project successes). Define all key metrics clearly.\n2. Core KPIs Monitored by Management: Identify the primary Key Performance Indicators (KPIs) that the management team actively monitors (e.g., daily, weekly, monthly) to gauge success, manage the business, and make data-driven decisions (e.g., CAC, LTV, churn, conversion rates, gross margin, specific operational metrics). Explain why these KPIs are critical.\n3. Growth & Operating Plan (Next 12-18 Months): Outline a clear, time-bound execution roadmap with specific, measurable, achievable, relevant, and time-bound (SMART) milestones for key operational areas. This should cover:\n* Product Development: Key features, releases, or R&D goals.\n* Sales & Customer Acquisition: Targets for new customers, revenue, or market penetration.\n* Marketing Initiatives: Key campaigns or lead generation goals.\n* Team & Hiring: Critical hires or team expansion plans.\n* (If applicable) Other Operational Goals: e.g., manufacturing targets, supply chain improvements, new office openings.\n4. Alignment with Funding & Use of Funds (If Applicable): Briefly explain how the outlined operating plan and its milestones align with the current funding ask (if fundraising). Indicate how the planned use of funds will directly support the achievement of these operational goals.\n5. Key Execution Risks & Mitigation Strategies: Identify 2-3 of the most significant potential execution risks or challenges that could prevent the company from achieving its planned milestones (e.g., hiring delays, product development setbacks, slower market adoption, competitive responses). For each key risk, outline plausible mitigation strategies or contingency plans.\n6. Overall Plan Credibility & Achievability Assessment: Provide a brief, balanced assessment of the overall credibility and achievability of the operating plan, considering current traction, the ambition of the goals, resource availability (including funding), and the identified risks and mitigations.",
+    "Financial Modelling": "1. Historical Financial Performance & Key Metrics: Present a summary of available historical financial data (e.g., last 1-3 years or relevant period, including revenue, COGS, gross profit, key operating expenses, net income/loss). Confirm the current average monthly burn rate and estimated runway with existing capital.\n2. Financial Projection Model Overview: Describe the company's financial forecast model (typically 3-5 years), noting its structure (P&L, Balance Sheet, Cash Flow) and the period it covers. Confirm that a detailed model was reviewed.\n3. Key Assumptions & Drivers in Projections: Identify and scrutinize the critical assumptions underpinning the financial projections (e.g., revenue growth rates, customer acquisition targets and costs, pricing evolution, hiring pace, COGS, OpEx scaling). Comment on their reasonableness based on historicals, market conditions, and operational plans.\n4. Projected Financial Statements Summary: Provide a high-level summary of the projected Income Statement, Cash Flow Statement, and key Balance Sheet items for the forecast period, highlighting key trends (e.g., revenue growth, path to profitability, cash balance).\n5. Unit Economics & Profitability Analysis: Analyze key unit economics (e.g., Gross Margin per unit/customer, LTV, CAC, LTV/CAC ratio, payback period), discussing the methodology and assumptions. Assess the model's path to attractive gross and net margins at scale and when profitability (e.g., EBITDA breakeven, net income positive) is projected.\n6. Scenario & Sensitivity Analysis: Discuss the results of any scenario analysis (e.g., base, upside, downside cases) or sensitivity analysis performed on the financial model. Identify key variables that have the most significant impact on financial outcomes and runway.\n7. Capital Requirements & Use of Funds: Clearly state the current funding ask (if applicable) and provide a detailed breakdown of the planned use of these funds over a defined period (e.g., 12-18 months), linking it to key operational and financial milestones.\n8. Efficiency Metrics & Industry Benchmarks: Present relevant financial and operational efficiency metrics (e.g., Burn Multiple, Rule of 40, industry-specific KPIs like ARPU, GMV growth) and compare them to industry benchmarks where appropriate, discussing their implications.\n9. Long-Term Economic Viability & Venture-Scale Exit Potential: Based on the projections and unit economics, assess the long-term economic viability of the business. Discuss whether the projected scale of revenue and market position could plausibly lead to a venture-scale exit (e.g., >$100M revenue, potential for >10x return for investors).\n10. Financial Tracking & Reporting Systems: Briefly describe the tools, systems (e.g., accounting software, CRM, BI tools), and processes the company uses to track, manage, and report its financial and key operational metrics.",
+    "Team and Talents": "1. Founders' Profile: Experience, Expertise & Track Record:\n* Detail each founder's relevant industry experience and deep domain expertise that aligns with the venture (Founder-Market Fit).\n* Discuss their entrepreneurial and leadership track record, including any previous startup successes, significant achievements, or key learnings from past ventures.\n2. Current Team Structure & Key Functional Leadership:\n* Outline the current core team structure beyond the founders, identifying who leads key functional areas (e.g., technology, product, sales, marketing, operations).\n* Briefly assess the strengths and suitability of individuals in these key roles.\n3. Talent Gaps & Hiring Plan:\n* Candidly identify any critical talent gaps in the current team (e.g., missing C-level expertise, key functional leads).\n* Outline the company's plan and timeline to fill these roles, particularly post-funding.\n4. Leadership Qualities, Cohesion & Motivation:\n* Assess the key leadership qualities of the founder(s) (e.g., vision, resilience, communication, ability to inspire).\n* Comment on the perceived cohesion, working relationship, and complementary skills among co-founders (if applicable).\n* Discuss the founders' core motivations and their long-term ambition for the company.\n5. Alignment with Investor Goals:\n* Assess the alignment of the founders' goals (regarding growth, funding, exit expectations, openness to guidance) with typical venture investor expectations.\n6. Talent Attraction, Retention & Company Culture:\n* Discuss the company's strategy and ability to attract and retain top talent (e.g., mission, culture, compensation, equity).\n* Provide any insights into the company culture being built or envisioned, and its potential impact.\n7. Advisory Board & Key Influencers (If Applicable):\n* List any key advisors, board members (other than founders), or significant external influencers/mentors actively contributing to the company, and describe their value.",
+    "Legal and IP": "1. Corporate Structure & Good Standing:\n* Confirm the company's legal form (e.g., C-Corp, LLC), jurisdiction of incorporation, and date.\n* Verify its good standing with relevant state authorities.\n2. Capitalization Table & Ownership:\n* Summarize the current capitalization table, highlighting founder ownership (including vesting status), major investor stakes, and the size/status of the Employee Stock Option Pool (ESOP).\n* Note any complex share structures or unusual terms.\n3. Key Governance Documents & Past Financings:\n* Confirm review of key governance documents (e.g., articles of incorporation, bylaws, shareholder agreements, recent board minutes).\n* Review documents from prior financing rounds (e.g., SAFE/Note agreements, preferred share terms), highlighting any material or non-standard terms.\n4. Intellectual Property (IP) Ownership & Protection:\n* Confirm legal ownership of key IP assets (patents, trademarks, copyrights, critical domain names) by the company, including proper registration or assignment from founders/employees.\n* Note the status of key IP filings (e.g., patent pending, trademark registered).\n* Identify any known IP disputes, significant infringement risks, or material freedom-to-operate concerns.\n5. Material Contracts & Obligations:\n* Summarize findings from the review of material contracts (e.g., key customer, supplier, partnership agreements; significant leases).\n* Highlight any adverse, unusual, or restrictive terms (e.g., change-of-control clauses, exclusivity, significant liabilities, non-standard termination rights).\n* Discuss compliance with any significant debt covenants or other major outstanding financial obligations.\n6. Regulatory Compliance & Licensing:\n* Identify key industry-specific regulations applicable to the company (e.g., HIPAA, GDPR/CCPA, financial regulations).\n* Assess the company's current compliance status and possession of necessary licenses or permits to operate.\n7. Litigation & Legal Disputes:\n* Disclose any ongoing or pending material litigation, significant regulatory inquiries, or other substantial legal threats.\n* Provide a brief evaluation of the potential impact and current status.\n8. Employment & HR Legal Considerations:\n* Confirm key employment practices are in place, such as the use of employment agreements with confidentiality and IP assignment clauses.\n* Verify proper classification of employees versus contractors.\n* Note the status of employee stock option grants and ESOP compliance."
+  }
+]
+</file>
+
+<file path="database_query_examples.py">
+#!/usr/bin/env python3
+"""
+Database Query Examples
+Demonstrates how to query the SQLite database created from the Excel template
+"""
+
+import sqlite3
+import pandas as pd
+import json
+
+def query_database_examples():
+    """
+    Examples of how to query the converted database
+    """
+    db_file = "converted_data/base_template.db"
+    
+    try:
+        # Connect to the database
+        conn = sqlite3.connect(db_file)
+        
+        print("=" * 60)
+        print("DATABASE QUERY EXAMPLES")
+        print("=" * 60)
+        
+        # Example 1: Show all data
+        print("\n1. SELECT ALL DATA:")
+        df_all = pd.read_sql_query("SELECT * FROM sheet1", conn)
+        print(df_all)
+        
+        # Example 2: Get specific columns
+        print("\n2. SELECT SPECIFIC COLUMNS:")
+        df_columns = pd.read_sql_query("""
+            SELECT 
+                [Chapter Name],
+                [Customer Discovery],
+                [Revenue Model]
+            FROM sheet1
+        """, conn)
+        print(df_columns)
+        
+        # Example 3: Filter by chapter type
+        print("\n3. FILTER BY CHAPTER NAME:")
+        df_filtered = pd.read_sql_query("""
+            SELECT * 
+            FROM sheet1 
+            WHERE [Chapter Name] = 'Chapter General Instructions'
+        """, conn)
+        print(df_filtered)
+        
+        # Example 4: Search in text content
+        print("\n4. SEARCH FOR SPECIFIC KEYWORDS:")
+        df_search = pd.read_sql_query("""
+            SELECT [Chapter Name], [Product and Technology]
+            FROM sheet1 
+            WHERE [Product and Technology] LIKE '%technology%'
+        """, conn)
+        print(df_search)
+        
+        # Example 5: Get structure information
+        print("\n5. TABLE STRUCTURE:")
+        cursor = conn.cursor()
+        cursor.execute("PRAGMA table_info(sheet1);")
+        columns = cursor.fetchall()
+        print("Column Name | Data Type")
+        print("-" * 30)
+        for col in columns:
+            print(f"{col[1]} | {col[2]}")
+        
+        conn.close()
+        
+    except Exception as e:
+        print(f"Error querying database: {e}")
+
+def programmatic_access_example():
+    """
+    Example of programmatic access to the data
+    """
+    print("\n" + "=" * 60)
+    print("PROGRAMMATIC ACCESS EXAMPLES")
+    print("=" * 60)
+    
+    # Example using JSON
+    json_file = "converted_data/base_template_Sheet1.json"
+    
+    try:
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        print("\n1. ACCESS SPECIFIC CHAPTER INSTRUCTIONS:")
+        for item in data:
+            if item['Chapter Name'] == 'Chapter Sections List Instructions':
+                print(f"Customer Discovery sections:")
+                print(item['Customer Discovery'][:200] + "...")
+                break
+        
+        print("\n2. EXTRACT ALL CHAPTER NAMES:")
+        chapter_names = [item['Chapter Name'] for item in data]
+        print(f"Chapters: {chapter_names}")
+        
+        print("\n3. GET ALL COLUMNS/TOPICS:")
+        if data:
+            topics = list(data[0].keys())
+            print(f"Available topics: {topics}")
+        
+    except Exception as e:
+        print(f"Error accessing JSON data: {e}")
+
+def create_api_ready_structure():
+    """
+    Create a more API-friendly data structure
+    """
+    print("\n" + "=" * 60)
+    print("API-READY DATA STRUCTURE")
+    print("=" * 60)
+    
+    try:
+        # Load the JSON data
+        with open("converted_data/base_template_Sheet1.json", 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Create a more structured format
+        api_structure = {
+            "investment_memo_template": {
+                "version": "1.0",
+                "chapters": {}
+            }
+        }
+        
+        # Get the structure from the data
+        if len(data) >= 2:
+            general_instructions = data[0]
+            section_instructions = data[1]
+            
+            # Create chapters structure
+            for key in general_instructions.keys():
+                if key != "Chapter Name":
+                    chapter_key = key.lower().replace(" ", "_").replace("&", "and")
+                    
+                    api_structure["investment_memo_template"]["chapters"][chapter_key] = {
+                        "title": key,
+                        "description": general_instructions[key],
+                        "sections": []
+                    }
+                    
+                    # Add sections if available
+                    if key in section_instructions:
+                        sections_text = section_instructions[key]
+                        # Parse sections (this is a simple example)
+                        if sections_text and "\n" in sections_text:
+                            sections = [s.strip() for s in sections_text.split("\n") if s.strip()]
+                            api_structure["investment_memo_template"]["chapters"][chapter_key]["sections"] = sections
+        
+        # Save the API-ready structure
+        api_file = "converted_data/api_ready_template.json"
+        with open(api_file, 'w', encoding='utf-8') as f:
+            json.dump(api_structure, f, indent=2, ensure_ascii=False)
+        
+        print(f"Created API-ready structure: {api_file}")
+        
+        # Show a sample
+        print("\nSample API structure:")
+        sample = {
+            k: v for k, v in list(api_structure["investment_memo_template"]["chapters"].items())[:2]
+        }
+        print(json.dumps(sample, indent=2)[:500] + "...")
+        
+    except Exception as e:
+        print(f"Error creating API structure: {e}")
+
+if __name__ == "__main__":
+    query_database_examples()
+    programmatic_access_example()
+    create_api_ready_structure()
+    
+    print("\n" + "=" * 60)
+    print("SUMMARY - MACHINE-READABLE FORMATS CREATED:")
+    print("=" * 60)
+    print("✓ CSV: Easy to import into spreadsheets, data analysis tools")
+    print("✓ JSON: Perfect for web APIs, JavaScript applications")
+    print("✓ SQLite: Full SQL query capabilities, database integration")
+    print("✓ API-ready JSON: Structured format for application development")
+    print("\nAll formats preserve the complete data structure and content from the Excel template.")
+</file>
+
+<file path="excel_converter.py">
+#!/usr/bin/env python3
+"""
+Excel to Machine-Readable Format Converter
+Converts Excel files to CSV, JSON, and SQLite database formats
+"""
+
+import pandas as pd
+import json
+import sqlite3
+import os
+from pathlib import Path
+
+def convert_excel_to_formats(excel_file, output_dir="converted_data"):
+    """
+    Convert Excel file to multiple machine-readable formats
+    
+    Args:
+        excel_file (str): Path to the Excel file
+        output_dir (str): Directory to save converted files
+    """
+    
+    # Create output directory if it doesn't exist
+    Path(output_dir).mkdir(exist_ok=True)
+    
+    # Read the Excel file
+    print(f"Reading Excel file: {excel_file}")
+    
+    try:
+        # Read all sheets from the Excel file
+        excel_data = pd.read_excel(excel_file, sheet_name=None, engine='openpyxl')
+        
+        # Get the base filename without extension
+        base_name = Path(excel_file).stem
+        
+        # Process each sheet
+        for sheet_name, df in excel_data.items():
+            print(f"\nProcessing sheet: {sheet_name}")
+            print(f"Shape: {df.shape}")
+            print(f"Columns: {list(df.columns)}")
+            
+            # Clean sheet name for filenames
+            clean_sheet_name = sheet_name.replace(' ', '_').replace('/', '_')
+            
+            # 1. Save as CSV
+            csv_file = f"{output_dir}/{base_name}_{clean_sheet_name}.csv"
+            df.to_csv(csv_file, index=False)
+            print(f"Saved CSV: {csv_file}")
+            
+            # 2. Save as JSON
+            json_file = f"{output_dir}/{base_name}_{clean_sheet_name}.json"
+            # Convert to JSON with proper handling of NaN values
+            json_data = df.where(pd.notnull(df), None).to_dict('records')
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, indent=2, ensure_ascii=False, default=str)
+            print(f"Saved JSON: {json_file}")
+        
+        # 3. Save as SQLite database
+        db_file = f"{output_dir}/{base_name}.db"
+        conn = sqlite3.connect(db_file)
+        
+        for sheet_name, df in excel_data.items():
+            # Clean table name
+            table_name = sheet_name.replace(' ', '_').replace('/', '_').lower()
+            df.to_sql(table_name, conn, if_exists='replace', index=False)
+            print(f"Saved to database table: {table_name}")
+        
+        conn.close()
+        print(f"Saved SQLite database: {db_file}")
+        
+        return excel_data
+        
+    except Exception as e:
+        print(f"Error processing Excel file: {e}")
+        return None
+
+def analyze_excel_structure(excel_file):
+    """
+    Analyze and display the structure of the Excel file
+    """
+    try:
+        excel_data = pd.read_excel(excel_file, sheet_name=None, engine='openpyxl')
+        
+        print("=" * 60)
+        print("EXCEL FILE ANALYSIS")
+        print("=" * 60)
+        
+        for sheet_name, df in excel_data.items():
+            print(f"\nSheet: {sheet_name}")
+            print("-" * 40)
+            print(f"Dimensions: {df.shape[0]} rows × {df.shape[1]} columns")
+            print(f"Columns: {list(df.columns)}")
+            
+            # Show data types
+            print("\nData Types:")
+            for col, dtype in df.dtypes.items():
+                print(f"  {col}: {dtype}")
+            
+            # Show first few rows
+            print(f"\nFirst 5 rows:")
+            print(df.head().to_string())
+            
+            # Check for missing values
+            missing = df.isnull().sum()
+            if missing.any():
+                print(f"\nMissing values:")
+                for col, count in missing.items():
+                    if count > 0:
+                        print(f"  {col}: {count}")
+        
+        return excel_data
+        
+    except Exception as e:
+        print(f"Error analyzing Excel file: {e}")
+        return None
+
+def create_database_schema(db_file):
+    """
+    Create and display database schema information
+    """
+    try:
+        conn = sqlite3.connect(db_file)
+        cursor = conn.cursor()
+        
+        # Get all table names
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+        tables = cursor.fetchall()
+        
+        print("\n" + "=" * 60)
+        print("DATABASE SCHEMA")
+        print("=" * 60)
+        
+        for table in tables:
+            table_name = table[0]
+            print(f"\nTable: {table_name}")
+            print("-" * 40)
+            
+            # Get table info
+            cursor.execute(f"PRAGMA table_info({table_name});")
+            columns = cursor.fetchall()
+            
+            print("Columns:")
+            for col in columns:
+                print(f"  {col[1]} ({col[2]})")
+            
+            # Get row count
+            cursor.execute(f"SELECT COUNT(*) FROM {table_name};")
+            count = cursor.fetchone()[0]
+            print(f"Row count: {count}")
+        
+        conn.close()
+        
+    except Exception as e:
+        print(f"Error reading database schema: {e}")
+
+if __name__ == "__main__":
+    excel_file = "base_template.xlsx"
+    
+    # Check if Excel file exists
+    if not os.path.exists(excel_file):
+        print(f"Error: Excel file '{excel_file}' not found!")
+        exit(1)
+    
+    # Analyze the Excel structure first
+    excel_data = analyze_excel_structure(excel_file)
+    
+    if excel_data:
+        # Convert to machine-readable formats
+        print("\n" + "=" * 60)
+        print("CONVERTING TO MACHINE-READABLE FORMATS")
+        print("=" * 60)
+        
+        convert_excel_to_formats(excel_file)
+        
+        # Show database schema
+        db_file = "converted_data/base_template.db"
+        if os.path.exists(db_file):
+            create_database_schema(db_file)
+        
+        print("\n" + "=" * 60)
+        print("CONVERSION COMPLETE!")
+        print("=" * 60)
+        print("Generated files:")
+        print("- CSV files for each sheet")
+        print("- JSON files for each sheet") 
+        print("- SQLite database with all sheets as tables")
+        print("- All files saved in 'converted_data/' directory")
+</file>
+
+<file path="app.py">
+import streamlit as st
+import os
+from dotenv import load_dotenv
+import json
+from datetime import datetime
+import concurrent.futures
+
+from openrouter_client import OpenRouterClient
+from processors import MarkdownProcessor, REASONING_MODELS, FINAL_MODEL, MEMO_SECTIONS
+from storage import LocalStorage
+
+# Load environment variables
+load_dotenv()
+
+# Hardcode the API key
+OPENROUTER_API_KEY = "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"
+
+# Initialize components
+storage = LocalStorage()
+
+# Set page configuration
+st.set_page_config(
+    page_title="Investment Memo Editor",
+    page_icon="📝",
+    layout="wide"
+)
+
+def format_time(seconds):
+    """Format time in seconds to a readable format"""
+    if seconds < 60:
+        return f"{seconds:.2f} seconds"
+    else:
+        minutes = int(seconds // 60)
+        seconds = seconds % 60
+        return f"{minutes} min {seconds:.2f} sec"
+
+def main():
+    st.title("Investment Memo Editor")
+    st.markdown("""
+    Edit sections of investment memos to make them more succinct and readable, similar to what you would read at top VC firms like Sequoia or A16Z.
+    
+    This tool processes your markdown text through multiple LLMs and creates an optimized final version.
+    """)
+    
+    # Sidebar for settings and saved results
+    with st.sidebar:
+        st.header("Settings")
+        
+        # API Key input (already filled with hardcoded key)
+        api_key = st.text_input("OpenRouter API Key", value=OPENROUTER_API_KEY, type="password")
+        
+        # Memo section selection
+        st.subheader("Memo Section")
+        section_type = st.selectbox(
+            "Select memo section to edit", 
+            options=MEMO_SECTIONS,
+            help="Select which section of the investment memo this text belongs to"
+        )
+        
+        # Model selection
+        st.subheader("Models")
+        selected_models = []
+        for model in REASONING_MODELS:
+            if st.checkbox(model, value=True, key=f"model_{model.replace('/', '_')}"):
+                selected_models.append(model)
+        
+        if not selected_models:
+            st.error("Please select at least one model")
+        
+        # View saved results
+        st.header("Saved Results")
+        saved_results = storage.list_results()
+        if saved_results:
+            selected_result = st.selectbox("Select a saved result", saved_results)
+            if st.button("Load Selected Result", key="load_result"):
+                result = storage.load_result(selected_result)
+                if result:
+                    st.session_state.original_text = result["original_text"]
+                    st.session_state.model_outputs = result["model_outputs"]
+                    st.session_state.final_output = result["final_output"]
+                    if "processing_times" in result:
+                        st.session_state.processing_times = result["processing_times"]
+                    else:
+                        # Handle legacy results that don't have timing info
+                        st.session_state.processing_times = {}
+                    if "section_type" in result:
+                        st.session_state.section_type = result["section_type"]
+        else:
+            st.info("No saved results found")
+    
+    # Main content area
+    col1, col2 = st.columns([1, 1])
+    
+    with col1:
+        st.header("Input")
+        
+        # Input options
+        input_option = st.radio("Input method", ["Text Input", "File Upload"], key="input_method")
+        
+        markdown_text = ""
+        if input_option == "Text Input":
+            markdown_text = st.text_area("Enter your markdown text", height=400, value=st.session_state.get("original_text", ""))
+        else:
+            uploaded_file = st.file_uploader("Upload a markdown file", type=["md", "txt"])
+            if uploaded_file is not None:
+                markdown_text = uploaded_file.read().decode("utf-8")
+                st.session_state.original_text = markdown_text
+        
+        # Process button
+        process_button = st.button("Process Text", key="process_button")
+        if process_button and markdown_text and api_key and selected_models:
+            with st.spinner(f"Processing {section_type} section with all models in parallel..."):
+                try:
+                    # Initialize client and processor
+                    client = OpenRouterClient(api_key)
+                    processor = MarkdownProcessor(client)
+                    
+                    # Store section type in session state
+                    st.session_state.section_type = section_type
+                    
+                    # Process with all selected models in parallel, passing the section type
+                    model_outputs = processor.process_with_reasoning_models(
+                        markdown_text, 
+                        section_type,
+                        selected_models
+                    )
+                    
+                    # Only create final version after all model outputs are ready
+                    if model_outputs and len(model_outputs) > 0:
+                        # Create the final consolidated version using all model outputs
+                        final_output, final_time = processor.create_final_version(
+                            markdown_text, 
+                            model_outputs,
+                            section_type
+                        )
+                        
+                        # Extract outputs and times for easier handling
+                        outputs = {model: data["output"] for model, data in model_outputs.items()}
+                        times = {model: data["time"] for model, data in model_outputs.items()}
+                        times[f"Final ({FINAL_MODEL})"] = final_time
+                        
+                        # Save to session state
+                        st.session_state.original_text = markdown_text
+                        st.session_state.model_outputs = outputs
+                        st.session_state.processing_times = times
+                        st.session_state.final_output = final_output
+                        
+                        # Save results with timing information and section type
+                        storage.save_result(
+                            markdown_text, 
+                            outputs, 
+                            final_output,
+                            times,
+                            section_type
+                        )
+                        
+                        st.success(f"Processing complete! Processed with {len(model_outputs)} models.")
+                    else:
+                        st.error("Error: No valid model outputs generated")
+                except Exception as e:
+                    st.error(f"Error: {str(e)}")
+    
+    with col2:
+        st.header("Output")
+        
+        if "model_outputs" in st.session_state and "final_output" in st.session_state:
+            # Display section type if available
+            if "section_type" in st.session_state:
+                st.info(f"Section type: {st.session_state.section_type}")
+                
+            # Create tabs for outputs
+            tab_names = ["Final Output"] + list(st.session_state.model_outputs.keys())
+            tabs = st.tabs(tab_names)
+            
+            # Display final output
+            with tabs[0]:
+                final_time = st.session_state.processing_times.get(f"Final ({FINAL_MODEL})", 0)
+                st.info(f"Processing time: {format_time(final_time)}")
+                st.markdown(st.session_state.final_output)
+                if st.button("Save to File", key="save_final"):
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    filename = f"edited_memo_{timestamp}.md"
+                    with open(filename, "w", encoding="utf-8") as f:
+                        f.write(st.session_state.final_output)
+                    st.success(f"Saved to {filename}")
+            
+            # Display model outputs with timing
+            for i, model in enumerate(st.session_state.model_outputs.keys(), 1):
+                with tabs[i]:
+                    # Show processing time for this model
+                    model_time = st.session_state.processing_times.get(model, 0)
+                    st.info(f"Processing time: {format_time(model_time)}")
+                    st.markdown(st.session_state.model_outputs[model])
+            
+            # Show timing comparison for all models
+            st.header("Performance Comparison")
+            times = st.session_state.processing_times
+            if times:
+                # Sort models by processing time
+                sorted_models = sorted(times.items(), key=lambda x: x[1])
+                
+                # Create a bar chart for timing comparison
+                st.bar_chart({model: time for model, time in sorted_models})
+                
+                # Display fastest and slowest model
+                if sorted_models:
+                    fastest_model, fastest_time = sorted_models[0]
+                    slowest_model, slowest_time = sorted_models[-1]
+                    
+                    st.markdown(f"**Fastest Model:** {fastest_model} - {format_time(fastest_time)}")
+                    st.markdown(f"**Slowest Model:** {slowest_model} - {format_time(slowest_time)}")
+
+if __name__ == "__main__":
+    main()
+</file>
+
+<file path="cli.py">
+import typer
+import os
+import time
+from typing import Optional
+from pathlib import Path
+from rich.console import Console
+from rich.markdown import Markdown
+from rich.panel import Panel
+from rich.progress import Progress, SpinnerColumn, TextColumn
+from rich.table import Table
+
+from openrouter_client import OpenRouterClient
+from processors import MarkdownProcessor, REASONING_MODELS, FINAL_MODEL, REASONING_SYSTEM_PROMPT
+from storage import LocalStorage
+
+app = typer.Typer()
+console = Console()
+
+def format_time(seconds):
+    """Format time in seconds to a readable format"""
+    if seconds < 60:
+        return f"{seconds:.2f} seconds"
+    else:
+        minutes = int(seconds // 60)
+        seconds = seconds % 60
+        return f"{minutes} min {seconds:.2f} sec"
+
+@app.command()
+def process(
+    input_file: Optional[Path] = typer.Option(None, "--file", "-f", help="Path to markdown file"),
+    save: bool = typer.Option(True, help="Save results to local storage")
+):
+    """Process a markdown document through multiple LLMs for editing"""
+    
+    # Get API key
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    if not api_key:
+        console.print("[bold red]Error:[/bold red] OpenRouter API key not found. Set the OPENROUTER_API_KEY environment variable.")
+        raise typer.Exit(1)
+    
+    # Initialize components
+    client = OpenRouterClient(api_key)
+    processor = MarkdownProcessor(client)
+    storage = LocalStorage()
+    
+    # Get markdown text
+    markdown_text = ""
+    if input_file:
+        try:
+            with open(input_file, 'r', encoding='utf-8') as f:
+                markdown_text = f.read()
+        except Exception as e:
+            console.print(f"[bold red]Error reading file:[/bold red] {e}")
+            raise typer.Exit(1)
+    else:
+        console.print("[bold]Enter your markdown text (press Ctrl+D when finished):[/bold]")
+        lines = []
+        try:
+            while True:
+                line = input()
+                lines.append(line)
+        except EOFError:
+            markdown_text = "\n".join(lines)
+    
+    # Early return if no text
+    if not markdown_text.strip():
+        console.print("[bold red]Error:[/bold red] No markdown text provided.")
+        raise typer.Exit(1)
+    
+    # Display original text
+    console.print("\n[bold]Original Text:[/bold]")
+    console.print(Panel(Markdown(markdown_text), title="Original", width=100))
+    
+    # Process through reasoning models
+    console.print(f"\n[bold]Processing through reasoning models...[/bold]")
+    
+    # Use the full parallel processing for all models
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        console=console
+    ) as progress:
+        task = progress.add_task("[cyan]Processing...", total=1)
+        
+        # Process with all models in parallel
+        model_results = processor.process_with_reasoning_models(markdown_text, REASONING_MODELS)
+        
+        progress.update(task, completed=1)
+    
+    # Extract outputs and times for easier handling
+    model_outputs = {model: data["output"] for model, data in model_results.items()}
+    processing_times = {model: data["time"] for model, data in model_results.items()}
+    
+    # Display model outputs with timing
+    for model, output in model_outputs.items():
+        time_taken = processing_times[model]
+        console.print(f"\n[bold]Output from {model} (took {format_time(time_taken)}):[/bold]")
+        console.print(Panel(Markdown(output), title=model, width=100))
+    
+    # Create the final consolidated version
+    console.print("\n[bold]Creating final version...[/bold]")
+    
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        console=console
+    ) as progress:
+        task = progress.add_task(f"[cyan]Processing with {FINAL_MODEL}...", total=1)
+        
+        # Process final version
+        final_output, final_time = processor.create_final_version(markdown_text, model_results)
+        processing_times[f"Final ({FINAL_MODEL})"] = final_time
+        
+        progress.update(task, completed=1)
+    
+    # Display final output
+    console.print(f"\n[bold]Final Output (took {format_time(final_time)}):[/bold]")
+    console.print(Panel(Markdown(final_output), title="Final Version", width=100))
+    
+    # Display timing comparison
+    console.print("\n[bold]Performance Comparison:[/bold]")
+    table = Table(title="Model Performance")
+    table.add_column("Model", style="cyan")
+    table.add_column("Processing Time", style="green")
+    
+    # Sort models by processing time
+    sorted_models = sorted(processing_times.items(), key=lambda x: x[1])
+    
+    for model, time_taken in sorted_models:
+        table.add_row(model, format_time(time_taken))
+    
+    console.print(table)
+    
+    # Report fastest and slowest
+    if sorted_models:
+        fastest_model, fastest_time = sorted_models[0]
+        slowest_model, slowest_time = sorted_models[-1]
+        console.print(f"\n[bold green]Fastest model:[/bold green] {fastest_model} ({format_time(fastest_time)})")
+        console.print(f"[bold red]Slowest model:[/bold red] {slowest_model} ({format_time(slowest_time)})")
+    
+    # Save results
+    if save:
+        filepath = storage.save_result(
+            markdown_text, 
+            model_outputs, 
+            final_output,
+            processing_times
+        )
+        console.print(f"\n[bold green]Results saved to:[/bold green] {filepath}")
+
+@app.command()
+def list():
+    """List previously saved results"""
+    storage = LocalStorage()
+    results = storage.list_results()
+    
+    if not results:
+        console.print("[yellow]No saved results found.[/yellow]")
+        return
+    
+    console.print("[bold]Saved Results:[/bold]")
+    for i, filename in enumerate(results, 1):
+        console.print(f"  {i}. {filename}")
+    
+    console.print("\nUse 'view' command with filename to view a specific result.")
+
+@app.command()
+def view(filename: str):
+    """View a specific saved result"""
+    storage = LocalStorage()
+    result = storage.load_result(filename)
+    
+    if not result:
+        console.print(f"[bold red]Error:[/bold red] Result '{filename}' not found.")
+        return
+    
+    console.print("\n[bold]Original Text:[/bold]")
+    console.print(Panel(Markdown(result["original_text"]), title="Original", width=100))
+    
+    console.print("\n[bold]Model Outputs:[/bold]")
+    for model, output in result["model_outputs"].items():
+        # Display processing time if available
+        time_info = ""
+        if "processing_times" in result and model in result["processing_times"]:
+            time_taken = result["processing_times"][model]
+            time_info = f" (took {format_time(time_taken)})"
+        
+        console.print(f"\n[bold]Output from {model}{time_info}:[/bold]")
+        console.print(Panel(Markdown(output), title=model, width=100))
+    
+    # Display timing comparison if available
+    if "processing_times" in result:
+        console.print("\n[bold]Performance Comparison:[/bold]")
+        table = Table(title="Model Performance")
+        table.add_column("Model", style="cyan")
+        table.add_column("Processing Time", style="green")
+        
+        # Sort models by processing time
+        sorted_models = sorted(result["processing_times"].items(), key=lambda x: x[1])
+        
+        for model, time_taken in sorted_models:
+            table.add_row(model, format_time(time_taken))
+        
+        console.print(table)
+    
+    # Display final output
+    final_time_info = ""
+    if "processing_times" in result and f"Final ({FINAL_MODEL})" in result["processing_times"]:
+        final_time = result["processing_times"][f"Final ({FINAL_MODEL})"]
+        final_time_info = f" (took {format_time(final_time)})"
+    
+    console.print(f"\n[bold]Final Output{final_time_info}:[/bold]")
+    console.print(Panel(Markdown(result["final_output"]), title="Final Version", width=100))
+
+if __name__ == "__main__":
+    app()
+</file>
+
+<file path="edited_memo_20250522_084647.md">
+# INVESTMENT MEMO: X-ENERGY
+
+## EXECUTIVE SUMMARY
+
+X-energy is disrupting the nuclear power market with its Gen IV high-temperature gas-cooled small modular reactor (HTGR SMR). In a sector dominated by legacy incumbents and facing unprecedented demand growth (+80-150% by 2050), X-energy has developed the only SMR capable of producing high-temperature process heat for industrial decarbonization—a critical capability that competitors lack. With $645M raised, $1.2B in DOE grants, blue-chip partnerships (Dow), and a $40.7B project pipeline, X-energy is positioned to lead the next wave of nuclear innovation.
+
+---
+
+## 1. MARKET OPPORTUNITY
+
+The nuclear power industry faces transformational tailwinds:
+- **Surging electricity demand**: +80-150% forecast by 2050
+- **Decarbonization mandates**: Net-zero commitments driving industrial heat solutions
+- **Grid reliability concerns**: Growing need for 24/7 dispatchable clean power
+
+While incumbents control 58% of current nuclear market share, their aging light-water reactors (LWRs) cannot address industrial process heat needs—creating a significant opportunity for advanced SMR technologies.
+
+---
+
+## 2. COMPETITIVE LANDSCAPE
+
+| **Company** | **Technology** | **Market Position** | **Key Advantage** | **Primary Limitation** |
+|-------------|----------------|---------------------|-------------------|------------------------|
+| **X-energy** | Gen IV HTGR (80-320 MWe) | $1.05B pre-money; $645M raised; $1.2B DOE grants | **High-temp process heat (565°C); proprietary TRISO-X fuel** | FOAK execution risk |
+| **Exelon** | Legacy LWR fleet | $15.8B revenue; 41% market share | Scale; regulatory experience | Aging fleet; no process heat |
+| **NuScale** | Modular LWR (77 MWe) | $1.9B market cap; $600M+ funding | First public SMR; NRC progress | Lower temp output; project delays |
+| **TerraPower** | Fast/molten salt reactors | $1.1B+ raised; $2B+ DOE support | Gates backing; advanced designs | Commercialization risk; longer timeline |
+| **Holtec** | LWR SMR-300 (300 MWe) | $400M+ invested | Vertical integration; familiar tech | Limited industrial versatility |
+
+X-energy is uniquely positioned as the only advanced nuclear company offering true high-temperature process heat—essential for industrial decarbonization applications that remain inaccessible to traditional nuclear and other SMR competitors.
+
+---
+
+## 3. X-ENERGY'S COMPETITIVE MOAT
+
+### Technology Differentiation
+- **Only Gen IV HTGR** delivering true process heat (565°C steam) for industrial applications
+- **Proprietary TRISO-X fuel** enables "walk-away safe" operation with no meltdown risk
+- **Modular design** allows factory production, road shipping, and flexible siting at industrial facilities
+
+### Commercial Traction
+- **Anchor contract with Dow Chemical**: 320 MWe plant at Seadrift, TX (2030 COD)
+- **$40.7B project pipeline**: 11 "4-pack" deployments (1.6 GW) by 2033
+- **440,000+ MT CO₂e annual reduction** targeted at first Dow deployment
+
+### Barriers to Entry
+- **Technical complexity**: Nuclear design/licensing requires specialized expertise
+- **Regulatory hurdles**: NRC permitting exceeds 24-36 months
+- **Capital intensity**: FOAK plants cost $1.5-3B
+- **IP protection**: Proprietary TRISO-X fuel and vertical integration
+- **Customer lock-in**: 60+ year project lifecycles
+
+---
+
+## 4. MARKET POSITIONING & GROWTH
+
+X-energy targets two key segments:
+1. **Industrial decarbonization**: Process heat for chemicals, refining, steel, etc.
+2. **Grid reliability**: Flexible baseload power for utilities and data centers
+
+The company has secured a first-mover advantage in the industrial segment through its Dow partnership, while competitors remain focused primarily on grid applications. With nuclear currently supplying 18% of U.S. electricity (down from 19.7% in 2019), X-energy is well-positioned to capture both replacement demand and new industrial applications.
+
+---
+
+## 5. RISKS & MITIGATIONS
+
+| **Risk Category** | **Specific Challenge** | **Mitigation Strategy** |
+|-------------------|------------------------|-------------------------|
+| **Execution** | NRC licensing delays; FOAK construction overruns | DOE partnerships; experienced team; modular approach reduces complexity |
+| **Supply Chain** | HALEU fuel availability | Proprietary TRISO-X production; DOE HALEU program support |
+| **Competitive** | Faster commercialization by rivals | First-mover industrial partnerships; process heat capability advantage |
+| **Market** | Substitution by renewables+storage or gas | Unique high-temperature capability; dual-use for power and heat |
+
+---
+
+## 6. FINANCIAL OVERVIEW
+
+- **Valuation**: $1.05B pre-money
+- **Capital Raised**: >$645M private investment
+- **Government Support**: $1.2B in DOE grants secured
+- **Project Pipeline**: $40.7B (11 deployments by 2033)
+- **First Commercial Revenue**: 2030 (Dow project)
+
+---
+
+## 7. INVESTMENT THESIS
+
+X-energy represents a compelling opportunity to lead the next wave of nuclear innovation for three key reasons:
+
+1. **Unique Technology**: Only solution addressing the critical industrial process heat market, creating a sustainable competitive advantage over both incumbents and other SMR developers
+
+2. **De-risked Execution**: Strong government support, blue-chip customer traction, and vertically integrated fuel supply significantly reduce typical nuclear development risks
+
+3. **Massive TAM**: Targeting both the $200B+ industrial process heat market and the rapidly growing clean baseload power segment
+
+**X-energy's proprietary HTGR technology and TRISO-X fuel create a defensible moat in the industrial decarbonization space—a segment that both traditional nuclear and other SMR competitors cannot effectively serve.**
+
+---
+
+## CONCLUSION
+
+X-energy stands at the intersection of three powerful trends: industrial decarbonization, energy security, and nuclear innovation. With differentiated technology, strong customer traction, significant barriers to entry, and substantial government support, the company is positioned to capture a leading share of the next-generation nuclear market. While execution and regulatory risks remain, X-energy's first-mover advantage and unique high-temperature capabilities provide a compelling investment opportunity in the clean energy transition.
+</file>
+
+<file path="edited_memo_20250522_085722.md">
+# Customer Discovery
+
+## Target Customer Segments & Pain Points
+
+X-energy targets two primary customer segments experiencing acute energy challenges:
+
+* **Large Industrials** (chemicals, steel, hydrogen, data centers) requiring high-grade process heat and reliable baseload power
+* **Utilities/IPPs** with aging, retiring baseload fleets and limited low-carbon alternatives
+
+These customers face a critical energy trilemma:
+
+1. **Rising Demand:** Global electricity needs projected to increase 80-150% by 2050 (IEA)
+2. **Decarbonization Mandates:** Regulatory, investor, and customer pressure for immediate carbon reductions
+3. **Reliability Requirements:** Need for 24/7 "always-on" power and industrial process heat
+
+Current solutions fail to address these combined needs:
+* **Legacy Nuclear:** Prohibitive capital costs, decade-long deployments, and large site requirements
+* **Fossil Generation:** Increasing carbon penalties and price volatility
+* **Renewables:** Intermittency prevents consistent baseload power or process heat capabilities
+
+## Market Validation & Customer Evidence
+
+X-energy has secured significant commercial traction with blue-chip customers:
+
+* **Dow Chemical** selected X-energy's Xe-100 SMR for its Seadrift, TX facility, projected to cut 440,000 MT CO₂e annually when no viable alternatives could decarbonize both process heat and power
+* **Tech Giants** including Amazon, Google, Microsoft, and Meta are actively procuring 24/7 nuclear power, signaling demand for reliable, carbon-free energy unreachable by other sources
+* **Fortune 500 Steel** and other industrial companies are advancing joint projects and detailed engineering studies
+
+> "The collaboration with X-energy and the DOE will serve as a leading example of how the industrial sector can safely, effectively and affordably decarbonize." —Jim Fitterling, Dow Chairman & CEO
+
+## Customer Discovery Process & Methods
+
+X-energy employs a rigorous, multi-faceted approach to customer discovery:
+
+* **Targeted Customer Interviews:** Deep engagements with industrial offtakers to validate specific needs around process heat, siting, and risk tolerance
+* **Pilot & Feasibility Projects:** Up to $50M in engineering work per project prior to full construction, including site-specific economic, regulatory, and technical validation
+* **Signed Joint Development Agreements:** Commercial agreements requiring substantial financial and resource commitment pre-permit, pre-build
+* **Third-Party Validation:** Selection for the $1.2B DOE Advanced Reactor Demonstration Program (one of two recipients) demonstrates competitive differentiation
+
+## Evidence of Demand & Willingness to Pay
+
+Quantitative metrics demonstrate strong customer commitment:
+
+* **Signed Commercial Agreements:** JDAs and MOUs representing ~11 "4-pack" SMRs (hundreds of MWs, pipeline value $40.7B by 2033) with anchor customers including Dow, Energy Northwest, and Ontario Power Generation
+* **Hard Dollar Commitments:** Customers investing up to $50M per site in pre-permit engineering work, years before commercial operation
+* **Deployment Timeline:** First 320 MWe project at Dow Seadrift (construction start 2026, COD by 2030), followed by projects in Washington State and Ontario
+* **Pipeline Growth:** Committed projects scale from 1 to 11 (2024-2033), with cumulative deployed capacity projected to reach 1.6 GW by 2033
+
+Notably, several major customers (Dow, Energy Northwest, OPG) are also investors in X-energy, further aligning incentives and demonstrating conviction.
+
+## Market Catalysts & Why Now
+
+Several converging factors create an optimal market entry window:
+
+1. **Data Center/AI Expansion:** Forecasted doubling of North American data center electricity demand by 2030 requires 24/7 firm, carbon-free power—a need uniquely suited for nuclear SMRs
+2. **Coal Plant Retirements:** Hundreds of GW scheduled for retirement by 2030 create ready-made sites with existing infrastructure and grid connections
+3. **Regulatory Tailwinds:** The ADVANCE Act (2024) streamlines NRC approvals and establishes frameworks for advanced reactors
+4. **Financial Incentives:** IRA production and investment tax credits plus $700M+ for US HALEU fuel production materially de-risk projects
+5. **Technology Readiness:** Completion of decades-long R&D in high-temperature gas reactors now enables first commercial deployments with competitive economics
+
+This convergence of customer urgency, technological readiness, and policy support creates a unique market opportunity that wasn't present even five years ago.
+
+## Summary
+
+X-energy's customer discovery demonstrates compelling demand from high-value segments who face urgent energy challenges. The company's robust pipeline, significant commercial commitments, and customer willingness to pay validate strong product-market fit. With established first-mover advantages and powerful market catalysts, X-energy is positioned to capitalize on a clear inflection point for SMR commercialization and scale.
+</file>
+
+<file path="edited_memo_20250522_090058.md">
+# PRODUCT & TECHNOLOGY
+
+## Core Technology
+
+X-energy has developed the **Xe-100**, a Generation IV High-Temperature Gas-cooled Reactor (HTGR) small modular reactor (SMR) that delivers 80 MWe per unit, typically deployed in "4-Pack" configurations (320 MWe). This next-generation nuclear solution combines two key proprietary elements:
+
+1. **Advanced Reactor Design:** The Xe-100 utilizes helium coolant to achieve high temperatures (565°C) while maintaining passive safety. Its modular, factory-fabricated components are road-shippable, enabling faster construction than conventional nuclear plants.
+
+2. **Proprietary TRISO-X Fuel:** Each fuel kernel is triple-encapsulated in carbon and ceramic layers within graphite "pebbles," creating an inherently safe containment system that withstands temperatures >1,600°C and eliminates the need for large containment domes.
+
+![Xe-100 Schematic](https://zapistoragedev.blob.core.windows.net/juicer-images/juicer-ae4c041c-1747412126252/figures/juicer-ae4c041c-1747412126252-page8-figure1.jpg)
+
+## Value Proposition
+
+The Xe-100 addresses critical market challenges that neither conventional nuclear nor renewables can fully solve:
+
+- **Surging Electricity Demand:** Projected 150% increase by 2050 driven by electrification, AI/data centers, and industrial growth
+- **Decarbonization Requirements:** Need for 24/7 reliable, carbon-free power
+- **Industrial Process Heat:** Hard-to-abate sectors requiring high-temperature steam
+
+X-energy's solution provides unique advantages:
+
+- **Dual-Purpose Output:** Delivers both baseload electricity and industrial-grade steam (565°C)
+- **Enhanced Safety:** "Walk-away safe" design with passive shutdown mechanisms
+- **Reduced Footprint:** Smaller emergency planning zones enable siting near industrial users
+- **Accelerated Deployment:** Factory fabrication cuts construction timelines from >8 years to ~3-4 years
+- **Industrial Decarbonization:** High-temperature capability unlocks applications in chemicals, steel, and hydrogen production
+
+A single 320 MWe deployment at Dow's Seadrift site is projected to eliminate 440,000+ tons of CO₂e annually.
+
+## Competitive Differentiation
+
+| Feature | Fossil Fuels | Renewables | Large Nuclear | Gen III+ SMRs | **X-energy Xe-100** |
+|---------|--------------|------------|---------------|---------------|---------------------|
+| Zero Carbon | ✗ | ✓ | ✓ | ✓ | ✓ |
+| Reliable Baseload | ✓ | ✗ | ✓ | ✓ | ✓ |
+| Load Following | ✓ | ✗ | ✗ | ✗ | ✓ |
+| Process Heat (565°C) | ✓ | ✗ | ✗ | ✗ | ✓ |
+| Intrinsic Safety | -- | -- | ✗ | Partial | ✓ |
+| Fuel Supply Control | ✗ | N/A | ✗ | Partial | ✓ |
+
+Key technical advantages:
+
+- **Superior Safety:** TRISO-X fuel provides inherent containment, eliminating 5/6 of safety systems required in conventional reactors
+- **High-Temperature Steam:** Uniquely capable of providing process heat for industrial applications, unlike light-water SMRs
+- **Operational Simplicity:** Only four control variables, reducing complexity and operating costs
+- **Vertically Integrated Fuel:** In-house TRISO-X manufacturing ensures quality control and supply chain security
+
+## Development Status & Roadmap
+
+X-energy has achieved significant technical and commercial validation:
+
+- **Funding:** $1.2B Department of Energy Advanced Reactor Demonstration Program award (one of only two nationwide)
+- **Strategic Partnerships:** Joint Development Agreement with Dow for first commercial deployment
+- **Technical Validation:** HTGR design principles substantiated by >50 years of R&D and operational data
+
+| Milestone | Timeline | Status |
+|-----------|----------|--------|
+| Complete Final Xe-100 Design | 2024 | Detailed design phase nearing completion |
+| Submit NRC Construction Permit | 2024 | In preparation for Dow Seadrift project |
+| TRISO-X Fuel Facility Construction | 2024-2026 | Underway in Oak Ridge, TN |
+| Commence Seadrift Project Construction | 2026 | Joint execution with Dow; leverages ARDP support |
+| First Commercial Operation | 2030-2031 | First-of-a-kind deployment at Dow site |
+| Additional Deployments | 2031-2033 | Multiple sites in WA, Canada, Midwest |
+| >1 GW Deployed Capacity | ~2032-2033 | Based on current pipeline (11+ "4-packs") |
+
+## Technical Moats & Defensibility
+
+X-energy has established multiple barriers to competition:
+
+1. **Proprietary Know-How:** 14 years of specialized expertise in HTGR design and TRISO-X fabrication across 400+ technical staff
+2. **Vertical Integration:** In-house fuel manufacturing creates independence from third-party suppliers
+3. **IP Portfolio:** 10 patent applications in 2024, expanding to 32 by 2033, covering reactor design, fuel composition, and manufacturing processes
+4. **Customer Lock-In:** 60+ year lifecycle service, fuel replenishment, and regulatory support create high switching costs
+5. **Regulatory Advantage:** Early engagement with NRC and DOE validation provide head start in licensing process
+
+## Key Technical Risks & Mitigation
+
+| Risk | Description | Mitigation Strategy |
+|------|-------------|---------------------|
+| Regulatory Approval Delays | Nuclear licensing processes are complex and often extend timelines | Early, proactive NRC engagement; leveraging DOE program learnings; robust project controls |
+| TRISO-X Manufacturing Scale-Up | Achieving commercial volumes of next-gen fuel at required quality | In-house facility with phased production ramp; advanced QA/QC protocols |
+| HALEU Supply Chain | Securing sufficient high-assay low-enriched uranium feedstock | Leveraging $700M+ government investment in domestic HALEU supply; DOE contracts |
+| First-of-Kind Construction Risk | Cost overruns common in novel nuclear deployments | 80% off-site fabrication; factory QA/QC; modular construction approach |
+| Public Perception | Local resistance to nuclear facilities | Brownfield/industrial siting; proactive community engagement; smaller emergency planning zones |
+
+## Conclusion
+
+X-energy's Xe-100 represents a step-change in nuclear technology, combining advanced safety features, modular deployment, and high-temperature capabilities to address critical market needs for clean baseload power and industrial decarbonization. With strong technical validation, strategic partnerships, and multiple defensible moats, the company is well-positioned to lead the commercialization of next-generation nuclear solutions.
+</file>
+
+<file path="edited_memo_20250522_090403.md">
+# Market Research: Nuclear Power
+
+## Market Overview & Size
+
+The nuclear power market represents a significant opportunity with a **global TAM of $446B in 2024**, projected to reach **$468B by 2025**. The US market generates approximately **$55B in annual revenue** (805 billion kWh at $0.068/kWh), with forecasts showing stabilization around $41B by 2030 after a period of industry recalibration.
+
+Our market definition encompasses commercial electricity generation via fission reactors, including traditional utility-scale plants and emerging small modular reactors (SMRs), as well as adjacent applications like industrial process heat and nuclear-powered hydrogen production.
+
+## Growth Drivers & Market Timing
+
+The nuclear power market is at an **inflection point**, with several powerful catalysts creating a compelling investment opportunity:
+
+1. **Decarbonization Mandates**: Global net-zero targets are driving demand for zero-carbon baseload power that renewables alone cannot provide.
+
+2. **AI & Data Center Expansion**: The explosion of AI computing and hyperscale data centers is creating unprecedented demand for 24/7 reliable, clean power—a perfect fit for nuclear's capabilities.
+
+3. **Policy Tailwinds**: The Inflation Reduction Act provides zero-emission PTCs through 2032, alongside $1.2B+ for SMR demonstrations and $700M+ for advanced fuel production.
+
+4. **Technological Innovation**: Gen IV reactors and SMRs offer step-change improvements in safety, modularity, and economics, reducing construction timelines and capital intensity.
+
+5. **Energy Security Concerns**: Geopolitical volatility is driving nations and corporations to secure independent, reliable energy supplies not subject to fuel supply disruptions.
+
+## Market Segmentation & Customer Dynamics
+
+The nuclear market is evolving beyond traditional utility customers to include direct industrial and technology sector offtakers:
+
+**Key Customer Segments**:
+- **Utilities (58.8% of revenue)**: Seeking reliable baseload generation and grid stability
+- **Industrial Users (47% of end-usage)**: Chemicals, steel, manufacturing requiring process heat and reliable power
+- **Technology Companies**: Data center operators and tech giants (Amazon, Microsoft, Google) contracting for dedicated clean power
+- **Emerging Applications**: Hydrogen producers and industrial decarbonization initiatives
+
+**Geographic Distribution**:
+- US concentration in Illinois, Pennsylvania, Michigan, and Southeast states
+- Rapid SMR adoption anticipated in US, Canada, UK, and Asia Pacific
+- China leading new capacity deployment globally
+
+## Emerging Applications & Use Cases
+
+SMRs and advanced reactor designs are unlocking new market applications beyond traditional grid supply:
+
+- **Industrial Process Heat**: High-temperature steam for chemicals, refining, and steel production—exemplified by X-energy's partnership with Dow targeting 440,000 metric tons of CO₂e reduction annually
+
+- **Data Center Power**: Dedicated nuclear supply for AI and cloud infrastructure, addressing both massive energy requirements and ESG commitments
+
+- **Clean Hydrogen Production**: Integration with electrolysis and thermochemical processes for cost-effective, zero-carbon hydrogen at scale
+
+- **Coal-to-Nuclear Conversion**: Repurposing legacy fossil sites with SMR technology, leveraging existing grid connections and workforces
+
+## Investment Considerations & Risks
+
+While the opportunity is compelling, several key factors will influence market development:
+
+1. **Regulatory Timeline**: The pace of SMR commercialization and licensing approvals remains uncertain despite recent streamlining (e.g., ADVANCE Act, 2024)
+
+2. **Cost Structure Evolution**: High initial capital requirements persist, though standardized designs and economies of scale from multiple deployments should improve economics
+
+3. **Fuel Supply**: Potential volatility in uranium pricing and specialized fuel (HALEU) availability could impact operating costs
+
+4. **Corporate vs. Utility Adoption**: The degree to which industrial/data center direct contracting, rather than traditional utility deployment, drives growth will shape market dynamics
+
+5. **Public Acceptance**: Despite strong safety fundamentals, public perception remains a variable that could impact deployment velocity
+
+## Conclusion
+
+The nuclear power market is undergoing a renaissance driven by unprecedented demand for reliable, zero-carbon power and breakthrough technologies in SMRs. The convergence of policy support, corporate decarbonization commitments, and surging power demands from AI and industrial electrification creates a unique investment window. Companies with scalable, cost-effective reactor designs targeting these high-growth segments are particularly well-positioned to capture value in this evolving market.
+</file>
+
+<file path="example_memo.md">
+# Investment Memo: TechVision AI
+
+## Company Overview
+
+TechVision AI is a startup founded in 2023 by Dr. Sarah Chen (PhD in Computer Science from Stanford) and Michael Rodriguez (former VP of Product at Google Cloud). The company has developed a proprietary computer vision platform that enables real-time object detection and classification with significantly lower computational requirements than current market solutions. Their technology can run efficiently on edge devices without requiring cloud connectivity, making it suitable for applications in remote areas or where privacy concerns are paramount. The founding team has a combined 25 years of experience in AI/ML development and product management in enterprise software.
+
+## Market Opportunity
+
+The global computer vision market was valued at approximately $12.6 billion in 2022 and is projected to grow at a CAGR of 18.5% from 2023 to 2028, reaching a potential market size of $33.7 billion by 2028. The growth is being driven by several factors including:
+
+1. Increased adoption of AI and ML technologies across industries
+2. Growing demand for automation in manufacturing and quality control
+3. Rising implementation of computer vision in autonomous vehicles and robotics
+4. Expanding applications in healthcare, retail, and security sectors
+5. Emergence of edge computing and IoT devices requiring local processing capabilities
+
+The company is initially targeting the manufacturing sector, specifically quality control and defect detection applications, which represents a $2.8 billion addressable market. This sector is chosen due to its immediate ROI proposition and the founders' existing relationships with potential customers. Secondary target markets include retail analytics ($1.7 billion) and smart city applications ($3.2 billion).
+
+## Product and Technology
+
+TechVision AI's core product is an edge-based computer vision platform called "VisionEdge" that consists of:
+
+1. Proprietary neural network architecture that requires 75% less computational power while maintaining 95% accuracy compared to state-of-the-art models
+2. Custom hardware acceleration layer that optimizes inference on common edge devices
+3. Auto-calibration system that reduces the need for extensive training data by leveraging transfer learning techniques
+4. Developer SDK that allows for easy integration into existing workflows and systems
+5. Management dashboard for monitoring, analytics, and model improvement
+
+The key differentiator is their patent-pending "NeuralCompression" algorithm that compresses neural networks without significant loss in accuracy. This allows their models to run on devices with limited resources, such as cameras and sensors in manufacturing environments, without requiring expensive GPU hardware or continuous cloud connectivity.
+
+Internal benchmarks show that their solution processes 120 frames per second on a standard Raspberry Pi 4, compared to 15-20 frames per second achieved by competitors on the same hardware. The company has filed 3 patents covering their core technology and has 2 more patents pending.
+
+## Go-to-Market Strategy
+
+TechVision AI employs a three-pronged GTM strategy:
+
+1. Direct Sales: Initially focusing on mid-sized manufacturing companies in the automotive and electronics sectors, with a sales cycle of approximately 3-4 months. The company has already secured 2 pilot agreements with automotive parts manufacturers.
+
+2. Channel Partnerships: Establishing relationships with system integrators and automation solution providers who can incorporate VisionEdge into their offerings. They have signed an MOU with one of the top 5 global industrial automation companies.
+
+3. Developer Community: Building a freemium developer edition to drive adoption and create network effects. This approach aims to establish VisionEdge as the industry standard for edge-based computer vision.
+
+Pricing is structured as a subscription model with three tiers:
+- Basic: $2,500/month per production line
+- Professional: $5,000/month per production line with additional analytics
+- Enterprise: Custom pricing for organization-wide deployment
+
+The company projects a CAC of $35,000 for mid-sized manufacturers with an expected LTV of $180,000 (based on 3-year average contract length).
+
+## Competitive Landscape
+
+The competitive landscape includes both established players and emerging startups:
+
+1. **Major Players**:
+   - Google Cloud Vision AI: Offers comprehensive cloud-based solutions but requires internet connectivity and has higher operational costs
+   - Microsoft Azure Computer Vision: Strong enterprise integration but faces similar connectivity and cost challenges
+   - AWS Rekognition: Powerful but requires significant cloud resources
+
+2. **Emerging Competitors**:
+   - EdgeAI Labs: Well-funded startup ($45M) focusing on edge-based computer vision but primarily targeting the retail sector
+   - VisionFlow: Early-stage company with similar technology but less efficient algorithms and limited market traction
+   - DeepSight: Recently acquired by a major industrial automation company, focusing on specialized manufacturing applications
+
+TechVision AI differentiates through:
+- Superior performance on edge devices (3-5x more efficient)
+- Lower total cost of ownership (estimated 65% cost reduction compared to cloud-based solutions)
+- Privacy-preserving local processing
+- Simpler integration and deployment process
+- Industry-specific optimizations for manufacturing use cases
+
+## Traction and Metrics
+
+Despite being early stage, the company has achieved notable traction:
+
+- Completed POCs with 3 manufacturing companies, with 2 converting to paid pilots ($12k MRR)
+- Technical validation by a major industrial automation company
+- 15 LOIs representing potential ARR of $1.2M if converted
+- 400+ sign-ups for their developer preview program
+- 92% reduction in false positives during defect detection at pilot sites
+- 85% decrease in processing time for quality control workflows
+
+The company has a strong pipeline of 25 qualified leads that are in various stages of the sales process, with projections to reach $450k ARR by year-end.
+
+## Team
+
+The founding team combines technical expertise with industry experience:
+
+- **Dr. Sarah Chen, CEO**: PhD in Computer Vision from Stanford, previously led AI research teams at NVIDIA and published 15+ papers in top AI conferences
+- **Michael Rodriguez, COO**: 12 years at Google Cloud, scaled enterprise products from $0 to $75M ARR
+- **Dr. James Kim, CTO**: PhD from MIT, previously at Tesla where he developed computer vision systems for Autopilot
+- **Lisa Johnson, VP of Sales**: 15 years experience in enterprise software sales, previously exceeded quotas by 30%+ at ServiceNow
+
+The broader team includes 8 engineers (5 with ML/CV specialization), 2 sales representatives, and 1 product manager. The company plans to grow to 25 employees by the end of next year, with focus on expanding the sales and customer success teams.
+
+## Financials and Fundraising
+
+TechVision AI has been bootstrapped with $500k from the founders and has raised a $1.5M pre-seed round from angel investors at a $10M valuation. The current fundraising is for a $7M seed round to accelerate growth.
+
+Key financial metrics and projections:
+- Current burn rate: $180k/month
+- Runway: 7 months at current burn
+- Current ARR: $150k
+- Projected ARR by EOY: $450k
+- Projected ARR end of next year: $2.7M
+
+The planned use of funds is:
+- 45% - Engineering and product development
+- 30% - Sales and marketing expansion
+- 15% - Customer success and operations
+- 10% - Working capital and reserves
+
+The company projects reaching cash flow positivity with the seed round funding, with no additional capital requirements before a potential Series A in 18-24 months.
+
+## Risks and Mitigations
+
+Key risks identified include:
+
+1. **Technological disruption**: The field of computer vision is evolving rapidly. Mitigation: Substantial ongoing R&D investment (35% of engineering resources) and defensive patent strategy.
+
+2. **Enterprise sales cycles**: Manufacturing companies typically have long decision-making processes. Mitigation: Focused on mid-sized manufacturers initially, with faster sales cycles, while building the enterprise pipeline.
+
+3. **Talent acquisition**: AI talent is scarce and expensive. Mitigation: Strong academic network, equity-heavy compensation, and distributed team structure.
+
+4. **Market timing**: Some target industries are still in early stages of adopting computer vision. Mitigation: Focusing first on manufacturing use cases with immediate ROI before expanding to emerging applications.
+
+5. **Competitive response**: Large cloud providers might develop similar edge-focused solutions. Mitigation: Moving quickly to establish market presence and developing specialized industry solutions that would be difficult for generalized platforms to match.
+
+## Conclusion and Ask
+
+TechVision AI has developed transformative technology that addresses a critical need in the rapidly growing computer vision market. The company's edge-based approach provides significant advantages in terms of performance, cost, and privacy compared to existing solutions.
+
+With early market validation, a strong technical team, and a clear path to scaling, TechVision AI is well-positioned to capture a significant share of the $33B computer vision market. The company is seeking $7M in seed funding to accelerate product development, expand go-to-market efforts, and establish market leadership in manufacturing computer vision applications before broadening to additional verticals.
+
+We believe this represents an attractive opportunity to invest in a differentiated AI company with potential for category leadership and an eventual exit through acquisition by a major technology or industrial automation company, with comparable acquisitions in this space ranging from $100M-$500M.
+</file>
+
+<file path="main.py">
+#!/usr/bin/env python3
+"""
+Investment Memo Editor
+
+A tool that processes investment memos through multiple LLMs via OpenRouter,
+making them more succinct and readable, similar to top-tier VC firms.
+"""
+
+from cli import app
+
+if __name__ == "__main__":
+    app()
+</file>
+
+<file path="openrouter_client.py">
+import os
+import requests
+from typing import Dict, Any, List, Optional
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class OpenRouterClient:
+    def __init__(self, api_key: Optional[str] = None):
+        self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
+        if not self.api_key:
+            raise ValueError("OpenRouter API key is required")
+        
+        self.base_url = "https://openrouter.ai/api/v1"
+        self.headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
+    
+    def generate_completion(self, 
+                           model: str, 
+                           prompt: str, 
+                           system_prompt: Optional[str] = None,
+                           temperature: float = 0.7,
+                           max_tokens: int = 40000) -> Dict[Any, Any]:
+        """
+        Generate a completion using the specified model on OpenRouter
+        """
+        url = f"{self.base_url}/chat/completions"
+        
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        
+        messages.append({"role": "user", "content": prompt})
+        
+        payload = {
+            "model": model,
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        
+        response = requests.post(url, headers=self.headers, json=payload)
+        response.raise_for_status()
+        return response.json()
+    
+    def process_markdown(self, 
+                        markdown_text: str, 
+                        models: List[str],
+                        system_prompt: str) -> Dict[str, str]:
+        """
+        Process markdown text through multiple models and return their responses
+        """
+        results = {}
+        
+        for model in models:
+            try:
+                response = self.generate_completion(
+                    model=model,
+                    prompt=markdown_text,
+                    system_prompt=system_prompt
+                )
+                
+                if 'choices' in response and len(response['choices']) > 0:
+                    results[model] = response['choices'][0]['message']['content']
+                else:
+                    results[model] = "Error: No content in response"
+            except Exception as e:
+                results[model] = f"Error: {str(e)}"
+        
+        return results
+</file>
+
+<file path="processors.py">
+from typing import Dict, List, Any, Tuple
+import concurrent.futures
+import time
+from openrouter_client import OpenRouterClient
+
+# Constants for models
+REASONING_MODELS = [
+    "openai/gpt-4.1",
+    "anthropic/claude-3.7-sonnet",
+    "google/gemini-2.5-flash-preview-05-20",
+    "x-ai/grok-3-beta",
+    "meta-llama/llama-4-maverick"
+]
+
+FINAL_MODEL = "anthropic/claude-3.7-sonnet:thinking"
+
+# List of available memo sections
+MEMO_SECTIONS = [
+    "Customer Discovery",
+    "Product and Technology",
+    "Market Research",
+    "Competitor Analysis",
+    "GTM and Partners",
+    "Revenue Model",
+    "Operating Metrics",
+    "Financial Modelling",
+    "Team and Talents",
+    "Legal and IP"
+]
+
+# Base system prompt
+BASE_REASONING_SYSTEM_PROMPT = """
+You are an expert editor for venture capital investment memos. Your task is to edit the provided markdown text to make it more succinct and readable, similar to what you would read at top VC firms like Sequoia or A16Z.
+
+This text is a SECTION from a market report, specifically the {section_type} section. Your task is to edit it to be an excellent {section_type} SECTION of a venture capital memo, not a complete memo itself.
+
+Focus on:
+1. Removing unnecessary details while preserving key insights
+2. Sharpening the analysis and reasoning
+3. Improving clarity and readability
+4. Maintaining a professional and analytical tone
+5. Highlighting the most important information for investment decisions
+6. Following the style and format appropriate for a {section_type} section
+
+The goal is to transform verbose content into a clear, compelling, and concise {section_type} section of an investment analysis.
+"""
+
+# Section-specific prompts (can be expanded with more specific guidance for each section)
+SECTION_SPECIFIC_PROMPTS = {
+    "Customer Discovery": """
+For a Customer Discovery section, focus on:
+- Clearly articulating the target customer segments and their pain points
+- Highlighting key customer interview insights and validation points
+- Emphasizing product-market fit evidence
+- Including relevant customer quotes or testimonials (if available)
+- Presenting a clear narrative about how customer needs align with the solution
+""",
+    "Product and Technology": """
+For a Product and Technology section, focus on:
+- Clearly explaining the core technology or product without technical jargon
+- Highlighting key technological advantages or innovations
+- Explaining technical moats or barriers to entry
+- Addressing the product roadmap and future development in a concise manner
+- Connecting technical capabilities to market needs
+""", 
+    "Market Research": """
+For a Market Research section, focus on:
+- Presenting key market size metrics (TAM, SAM, SOM) with credible sources
+- Highlighting the most relevant market trends and growth drivers
+- Including only the most meaningful market statistics
+- Articulating why this market timing is right for this investment
+- Providing clear, data-backed market insights
+""",
+    "Competitor Analysis": """
+For a Competitor Analysis section, focus on:
+- Creating a clear competitive landscape overview
+- Highlighting key competitive advantages and differentiation
+- Identifying the most relevant direct and indirect competitors
+- Analyzing competitive moats and barriers to entry
+- Presenting an honest assessment of competitive threats
+""",
+    "GTM and Partners": """
+For a GTM and Partners section, focus on:
+- Outlining a clear, executable go-to-market strategy
+- Highlighting key channel strategies and partnership opportunities
+- Identifying the most strategic partnerships and their value
+- Presenting realistic customer acquisition strategies
+- Outlining sales cycle and key conversion metrics
+""",
+    "Revenue Model": """
+For a Revenue Model section, focus on:
+- Clearly articulating the primary revenue streams
+- Highlighting unit economics and pricing strategy
+- Including key metrics like LTV, CAC, and payback period
+- Presenting a clear path to scalable revenue
+- Addressing revenue risks and mitigations
+""",
+    "Operating Metrics": """
+For an Operating Metrics section, focus on:
+- Highlighting the most critical KPIs for this specific business
+- Presenting clear, data-driven operational benchmarks
+- Including only the most meaningful operational metrics
+- Connecting metrics to business success and investor returns
+- Providing context for how metrics compare to industry standards
+""",
+    "Financial Modelling": """
+For a Financial Modelling section, focus on:
+- Presenting clear financial projections with key assumptions
+- Highlighting the path to profitability with realistic milestones
+- Including cash flow considerations and capital efficiency
+- Addressing key financial risks and sensitivities
+- Focusing on the most meaningful financial metrics for this business model
+""",
+    "Team and Talents": """
+For a Team and Talents section, focus on:
+- Highlighting founders' and key team members' relevant expertise and track record
+- Identifying critical skill gaps and hiring priorities
+- Presenting team structure and organizational design
+- Emphasizing team members' unique qualifications for this specific venture
+- Addressing team risk factors and mitigations
+""",
+    "Legal and IP": """
+For a Legal and IP section, focus on:
+- Clearly articulating key IP assets and protection strategies
+- Highlighting regulatory considerations and compliance approaches
+- Identifying critical legal risks and mitigations
+- Presenting the IP competitive advantage clearly
+- Addressing legal structure and governance
+"""
+}
+
+FINAL_SYSTEM_PROMPT = """
+You are a master editor for venture capital investment memos. You have been given different edited versions of the same investment memo section, each edited by a different AI assistant.
+
+The original text is a SECTION from a market report, specifically the {section_type} section. Your task is to create a final, optimal version that works as an excellent {section_type} SECTION of a venture capital memo, not a complete memo itself.
+
+Your task is to create a final, optimal version that:
+1. Incorporates the best edits and insights from all versions
+2. Prioritizes edits that multiple AIs agreed on
+3. Creates the most concise, clear, and compelling {section_type} section possible
+4. Follows the style and format of top-tier VC firms like Sequoia and A16Z
+5. Focuses specifically on what makes an excellent {section_type} section
+
+The result should be a polished, professional {section_type} section that presents the key information efficiently.
+"""
+
+class MarkdownProcessor:
+    def __init__(self, client: OpenRouterClient):
+        self.client = client
+    
+    def get_section_prompt(self, section_type: str) -> str:
+        """Generate a section-specific system prompt"""
+        # Get the base prompt with the section type inserted
+        section_prompt = BASE_REASONING_SYSTEM_PROMPT.format(section_type=section_type)
+        
+        # Add section-specific guidance if available
+        if section_type in SECTION_SPECIFIC_PROMPTS:
+            section_prompt += "\n\n" + SECTION_SPECIFIC_PROMPTS[section_type]
+            
+        return section_prompt
+    
+    def process_model(self, model, markdown_text, section_type: str) -> Tuple[str, float]:
+        """Helper function to process a single model and return result with timing"""
+        start_time = time.time()
+        try:
+            # Get the section-specific system prompt
+            system_prompt = self.get_section_prompt(section_type)
+            
+            response = self.client.generate_completion(
+                model=model,
+                prompt=markdown_text,
+                system_prompt=system_prompt,
+                max_tokens=4000
+            )
+            
+            if 'choices' in response and len(response['choices']) > 0:
+                result = response['choices'][0]['message']['content']
+            else:
+                result = "Error: No content in response"
+        except Exception as e:
+            result = f"Error: {str(e)}"
+            
+        # Calculate processing time in seconds
+        processing_time = time.time() - start_time
+        return result, processing_time
+    
+    def process_with_reasoning_models(self, markdown_text: str, section_type: str, selected_models: List[str] = None) -> Dict[str, Dict[str, Any]]:
+        """
+        Process the markdown text through all reasoning models in parallel
+        Returns a dictionary with model name as key and a dict with 'output' and 'time' as value
+        """
+        if selected_models is None:
+            selected_models = REASONING_MODELS
+        
+        # Use ThreadPoolExecutor for parallel processing
+        results = {}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(selected_models), 6)) as executor:
+            # Create futures with section_type
+            future_to_model = {
+                executor.submit(self.process_model, model, markdown_text, section_type): model 
+                for model in selected_models
+            }
+            
+            # Process results as they complete
+            for future in concurrent.futures.as_completed(future_to_model):
+                model = future_to_model[future]
+                try:
+                    output, processing_time = future.result()
+                    results[model] = {
+                        'output': output,
+                        'time': processing_time
+                    }
+                except Exception as e:
+                    results[model] = {
+                        'output': f"Error: {str(e)}",
+                        'time': 0.0
+                    }
+        
+        return results
+    
+    def create_final_version(self, original_text: str, model_outputs: Dict[str, Dict[str, Any]], section_type: str) -> Tuple[str, float]:
+        """
+        Create the final version using all the model outputs
+        Returns the final output and the processing time
+        """
+        # Create prompt for the final model
+        combined_prompt = "ORIGINAL TEXT:\n\n" + original_text + "\n\n"
+        
+        for model, output_data in model_outputs.items():
+            combined_prompt += f"EDITED BY {model}:\n\n{output_data['output']}\n\n"
+        
+        combined_prompt += f"Based on these versions, create the optimal final version that incorporates the best elements from each to create an excellent {section_type} section for a venture capital memo."
+        
+        start_time = time.time()
+        try:
+            # Get the final system prompt with section type
+            final_system_prompt = FINAL_SYSTEM_PROMPT.format(section_type=section_type)
+            
+            response = self.client.generate_completion(
+                model=FINAL_MODEL,
+                prompt=combined_prompt,
+                system_prompt=final_system_prompt,
+                max_tokens=4000
+            )
+            
+            if 'choices' in response and len(response['choices']) > 0:
+                result = response['choices'][0]['message']['content']
+            else:
+                result = "Error: Could not generate final version."
+        except Exception as e:
+            result = f"Error generating final version: {str(e)}"
+            
+        # Calculate processing time in seconds
+        processing_time = time.time() - start_time
+        return result, processing_time
+</file>
+
+<file path="README.md">
+# Investment Memo Editor
+
+A tool that processes investment memos through multiple LLMs via OpenRouter, making them more succinct and readable, similar to top-tier VC firms like Sequoia or A16Z.
+
+## Features
+
+- Process markdown text through 6 reasoning LLMs
+- Consolidate their edits into a final version using anthropic/claude-3.7-sonnet:thinking
+- Compare performance with timing metrics for each model
+- Save and view past results
+- Choice of CLI or Streamlit GUI interface
+
+## Installation
+
+1. Clone this repository
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a .env file with your OpenRouter API key:
+
+```bash
+cp .env.example .env
+# Edit .env with your API key
+```
+
+## Usage
+
+### CLI Interface
+
+Process a markdown document from a file:
+```bash
+python main.py process --file path/to/markdown.md
+```
+
+From stdin:
+```bash
+python main.py process
+# Enter markdown text, then press Ctrl+D when finished
+```
+
+List saved results:
+```bash
+python main.py list
+```
+
+View a specific result:
+```bash
+python main.py view memo_edit_20230615_123045.json
+```
+
+### Streamlit GUI
+
+Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+
+The app provides an interface to:
+- Paste or upload markdown text
+- Select which models to use
+- View outputs from each model with processing times
+- Compare model performance with timing metrics
+- See the final edited version
+- Save results and export edited text
+
+## Models Used
+
+The following OpenRouter models are used:
+
+- openai/gpt-4.1
+- anthropic/claude-3.7-sonnet
+- google/gemini-2.5-flash-preview-05-20
+- x-ai/grok-3-beta
+- meta-llama/llama-4-maverick
+- deepseek/deepseek-chat-v3-0324
+
+The final consolidation is done with:
+- anthropic/claude-3.7-sonnet:thinking
+
+## License
+
+MIT # edit_max
+</file>
+
+<file path="requirements.txt">
+requests==2.31.0
+python-dotenv==1.0.0
+rich==13.5.2
+pydantic==2.4.2
+typer==0.9.0
+streamlit==1.32.0
+</file>
+
+<file path="storage.py">
+import json
+import os
+from datetime import datetime
+from typing import Dict, Optional, List, Any
+
+class LocalStorage:
+    def __init__(self, storage_dir: str = "results"):
+        """Initialize storage with directory path"""
+        self.storage_dir = storage_dir
+        os.makedirs(storage_dir, exist_ok=True)
+    
+    def save_result(self, 
+                   original_text: str, 
+                   model_outputs: Dict[str, str], 
+                   final_output: str,
+                   processing_times: Dict[str, float] = None,
+                   section_type: str = None) -> str:
+        """
+        Save a result to local storage and return the file path
+        
+        Args:
+            original_text: The original text that was processed
+            model_outputs: Dictionary of model outputs (model_name -> output)
+            final_output: The final consolidated output
+            processing_times: Dictionary of processing times (model_name -> time in seconds)
+            section_type: The type of memo section being edited
+        """
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"memo_edit_{timestamp}.json"
+        filepath = os.path.join(self.storage_dir, filename)
+        
+        data = {
+            "timestamp": datetime.now().isoformat(),
+            "original_text": original_text,
+            "model_outputs": model_outputs,
+            "final_output": final_output
+        }
+        
+        # Add processing times if provided
+        if processing_times:
+            data["processing_times"] = processing_times
+            
+        # Add section type if provided
+        if section_type:
+            data["section_type"] = section_type
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        
+        return filepath
+    
+    def list_results(self) -> List[str]:
+        """
+        List all available result files
+        """
+        if not os.path.exists(self.storage_dir):
+            return []
+        
+        files = [f for f in os.listdir(self.storage_dir) if f.endswith('.json')]
+        return sorted(files, reverse=True)  # Most recent first
+    
+    def load_result(self, filename: str) -> Optional[Dict[str, Any]]:
+        """
+        Load a specific result by filename
+        """
+        filepath = os.path.join(self.storage_dir, filename)
+        
+        if not os.path.exists(filepath):
+            return None
+        
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading {filepath}: {e}")
+            return None
+</file>
+
+<file path=".env.example">
+# Copy this file to .env and replace with your actual API key
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+</file>
+
+<file path=".gitignore">
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# Results directory
+results/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+</file>
+
+</files>

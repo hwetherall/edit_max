@@ -21,7 +21,6 @@ var/
 *.egg
 
 # Environment variables
-.env.example
 .env
 .env.local
 
